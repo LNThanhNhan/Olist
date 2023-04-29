@@ -352,6 +352,9 @@
         <Attribute dwd:design-time-name="3683c210-10e9-442f-a31c-caa4d147edfa">
           <AttributeID>Order Purchase Timestamp</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f3350152-691f-4cc5-9390-85ef9b16990e">
+          <AttributeID>Order Status</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="f4e6d89d-32fc-43ac-aaae-0e4714136912">
@@ -374,6 +377,24 @@
       <Attributes>
         <Attribute dwd:design-time-name="b07dff4e-0fe4-4d29-bf4e-65e556494d9a">
           <AttributeID>Timestamp</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="005fca14-afa9-4d87-984f-bc67545aadf8">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="366aa080-cd80-4a73-97f5-b0ca1df4983e">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a6cd631-380a-435e-ba6c-a1a200e8f6c7">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="366e0636-399c-417a-abd1-bf27b8b52e97">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ce5a7ca-52f1-44f1-abaf-8e042ba2a557">
+          <AttributeID>Weeekday</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d2e0d02-3c77-4aa8-bc57-13972a1b83fc">
+          <AttributeID>Weeekday Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
