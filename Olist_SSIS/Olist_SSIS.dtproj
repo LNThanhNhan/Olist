@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ASUS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvZhNRWgYUUGRSvl6M76f5gAAAAACAAAAAAAQZgAAAAEAACAAAACJdyJOxmja32Np3Leb0y87pO5mE4eE3jwwp0prUXZQewAAAAAOgAAAAAIAACAAAACX+YjZKm0vp9UnPn+NPMuq2DuO3qQgzOTm6fANd40eh5AAAADZHh30gy0dJozyDLkPn90dleN3uxwR40Y5fw6g1MvkqvBkR/echjj1uvLiu9h00L6VjqMgZI0fH4lnJXjxHEC9d88K4Q3HivMRtStgki/BT7R1Xk8xxJAed8QrQ4INX4+2yY11ez/bHf+nDbyjOecNDeuIFUdkhuUqysIbatMwp3g45nMi9xz/9C2E74q711pAAAAAARu35bkJz1GLKckmbMPm8Ys5VzINl6SrzNxI/0+5pnFSSXExVt/6dlzWbvPwedVvJ2bv+cvIDCM3jcdbGIBV/g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAACAAAAAAAQZgAAAAEAACAAAACp+o4nlScuJ8g2Ceq55BPmnbnC+DHBFwH4htkMgR59uQAAAAAOgAAAAAIAACAAAABuebYc9299ZSnKYS41iOpCUvirQEMOqczmWy8W29rmb5AAAAC8g1EliYOcUgbF88xTtkcxyeBAWj0virP+2hbi7lK3SD6Vra99/qJzoM2JGTaVLXp3ZxAnBCh1D0ZPqTUQLmeDi+c7/qgi09Kcv9BqA7C5odM+DmqXpdAGJ/ol3wJJ3nkdFNeLilgIqMbDnx8VTqEOy+xS5RgeeACotuWK9tarcsvip59trx3rZvfEAAxmAHdAAAAALkR2GYCc5TFpQz4+ir230NjidEAqpItmbQM/Cr/eF/FJMUESe1aj1wUVr3JANXJtnk+uGr0VnwsGDFgbAXToKQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">93</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">99</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E1835909-C7AA-431D-83F2-9D3F4F0DB945}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{44A713E0-CF5A-4936-92D2-E6E33375161A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -608,6 +608,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -864,7 +866,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-TN920113;User ID=olap;Initial Catalog=Olist;Provider=SQLOLEDB.1;Application Name=SSIS-Package-{25753452-D059-4DE0-AB9E-B231BDDF8337}LAPTOP-TN920113.Olist.olap;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=NHAN;User ID=olap;Initial Catalog=Olist;Provider=SQLOLEDB.1;Auto Translate=False;Application Name=SSIS-Package-{25753452-D059-4DE0-AB9E-B231BDDF8337}LAPTOP-TN920113.Olist.olap;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -968,7 +970,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LAPTOP-TN920113</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">NHAN</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
