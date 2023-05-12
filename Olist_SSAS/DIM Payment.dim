@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29956097-7662-4fc8-9a04-824c7b08765c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="666644eb-3096-4179-8285-540ce91c85ff" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Payment</ID>
   <Name>DIM Payment</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2097" scrolltop="-4202" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9292" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Payment" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5059" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c31300006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_Payment" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2097</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4202</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -39,47 +65,76 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="257">
+            <Shape Id="Order Id Payment Sequential" Expanded="false">
+              <Attributes>
+                <Attribute Id="Order Id Payment Sequential" />
+                <Attribute Id="Payment Type" />
+                <Attribute Id="Payment Value" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Order Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Order Id" />
+              </Attributes>
+              <Position x="346" y="20" />
+            </Shape>
+            <Shape Id="Payment Sequential" Expanded="false">
+              <Attributes>
+                <Attribute Id="Payment Sequential" />
+              </Attributes>
+              <Position x="346" y="69" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="352074c4-db92-42b9-b030-904abda2e7e1">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ba3ed938-4b84-4fd0-9274-7005d2e61e54">
     <DataSourceViewID>Olist</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="afb2c06d-facd-4680-8d4e-23f0b9779e35">
+  <ErrorConfiguration dwd:design-time-name="b18a467b-033c-4176-a9b9-b9b42f159d83">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3c1a86cf-b76f-44dd-9999-93ef0b4d24eb">
+    <Attribute dwd:design-time-name="67ce57d2-78b1-4eaa-9d12-661b6ce0fcfc">
       <ID>Order Id Payment Sequential</ID>
       <Name>Order Id Payment Sequential</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9e12d955-9275-4e0c-aeed-22214c2a94ff">
+        <KeyColumn dwd:design-time-name="9a924c57-e95f-4ff2-b919-b1fda0b10c1f">
           <DataType>WChar</DataType>
           <DataSize>266</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="79827730-c9b9-4d97-8e3d-feeff6c31284">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c96b9f5f-f67c-4c99-bd88-dace5351df39">
             <TableID>dbo_DIM_Payment</TableID>
             <ColumnID>order_id_payment_sequential</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8d588e4c-150c-4644-acfc-6c68f56b5bc6">
+        <AttributeRelationship dwd:design-time-name="8916599e-ba76-4868-bfa8-cbcd1636b13f">
           <AttributeID>Payment Sequential</AttributeID>
           <Name>Payment Sequential</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="aeb6c8fd-531b-45b6-81fa-7583909801fc">
+        <AttributeRelationship dwd:design-time-name="c17b08bb-da35-4538-8078-854b38eb24f4">
           <AttributeID>Payment Type</AttributeID>
           <Name>Payment Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bd20a455-d6ee-4b2e-98dd-a61dcc4c80a6">
+        <AttributeRelationship dwd:design-time-name="2b00c494-00be-434e-914b-eb51320be926">
           <AttributeID>Payment Value</AttributeID>
           <Name>Payment Value</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="45904cce-2eec-4f65-af26-b31c61f2fe11">
+        <AttributeRelationship dwd:design-time-name="eadd7979-22f1-4921-8261-eaa5adfe1c42">
           <AttributeID>Order Id</AttributeID>
           <Name>Order Id</Name>
         </AttributeRelationship>
@@ -88,13 +143,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2bbf0bbd-e5e7-4ceb-b411-bf731fc92d19">
+    <Attribute dwd:design-time-name="873724e5-640a-4d24-a2eb-c12f7c3640bb">
       <ID>Payment Sequential</ID>
       <Name>Payment Sequential</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b4be62b6-6a71-4c7e-80f2-74cfcc92b0b0">
+        <KeyColumn dwd:design-time-name="5b966c5e-ff66-476d-ad2a-dc9e930fd305">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6271c30-2057-4642-9b74-beec6c8cbb96">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fbeafac2-32dd-4612-942b-44fcb08eeca5">
             <TableID>dbo_DIM_Payment</TableID>
             <ColumnID>payment_sequential</ColumnID>
           </Source>
@@ -104,14 +159,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="01b2b443-0be7-4445-9754-b97776ebfdf1">
+    <Attribute dwd:design-time-name="f5b6b2aa-e6c4-4e41-9352-fb01636c7dca">
       <ID>Payment Type</ID>
       <Name>Payment Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="749722f2-efc4-4080-976d-5e9ae99455f3">
+        <KeyColumn dwd:design-time-name="8af819af-a781-4301-8c8e-6538bdc4fd8c">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="07c8b858-f1a8-41f9-9640-590d898f9571">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="48dc42f4-b87d-497e-8bcf-0d2fed77b14a">
             <TableID>dbo_DIM_Payment</TableID>
             <ColumnID>payment_type</ColumnID>
           </Source>
@@ -121,13 +176,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="02851006-1f44-4219-ae7b-33f32ce718dc">
+    <Attribute dwd:design-time-name="e1b5b338-ab11-4f8b-97eb-2bd90b6d8969">
       <ID>Payment Value</ID>
       <Name>Payment Value</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e15fc2d2-b9e5-426e-9e58-2d81df3e55c9">
+        <KeyColumn dwd:design-time-name="c9362b8d-6c7d-43a6-b36f-0e4c938e5933">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef25ed1c-0c50-4b17-8bfd-36db1fdfc940">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d34ad92b-33aa-450c-9237-7e9b52a93402">
             <TableID>dbo_DIM_Payment</TableID>
             <ColumnID>payment_value</ColumnID>
           </Source>
@@ -137,14 +192,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0376c49e-d1ba-4c29-ac29-bcd40bbcda9a">
+    <Attribute dwd:design-time-name="0e3f2feb-e7ea-4e4c-ab4a-be815521b015">
       <ID>Order Id</ID>
       <Name>Order Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0e8b2b15-2329-4bb8-9820-b4b0e621a04d">
+        <KeyColumn dwd:design-time-name="d78d7ad5-20bf-4fc1-942d-6a1396a92405">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d69b636-83aa-466d-9620-8d3af8174bd2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="555be395-0f02-4392-8a9e-011346120447">
             <TableID>dbo_DIM_Payment</TableID>
             <ColumnID>order_id</ColumnID>
           </Source>

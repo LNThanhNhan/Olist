@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="101"
-  DTS:VersionGUID="{56C604F4-EEEC-42A7-B2B3-E656091F8497}">
+  DTS:VersionBuild="102"
+  DTS:VersionGUID="{E12D93AC-BCCE-42CE-9325-72DBBF541279}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -307,7 +307,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAR8Hsv9lgfMknVGLqLaVlj6byLl4z11/h92bKvmtYlAgAAAAAOgAAAAAIAACAAAABctpWbeM9av+JUmRvMG2XgX/y+ny3t2NB3huYfrdb1nBAAAADg673qhGC8uHzCVUEtlWPjQAAAAPZAum1+IGCDnQC0w0+5VgCjRtvRAQJUitsfR8ZSGy4YQQwSPEXZ2pBeMT2dXF0WBXrtd+vicoL2YxM+qV/+mFI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABT7MuqqkwMATMDKxBhKkGhK/eqT1leSkfWA/OUF+7TkAAAAAAOgAAAAAIAACAAAAB16//cehHaO/SLvqyl96/tEXnZqS1JPbq9RfH5sjXBExAAAAA439gqoNEb3tquAexcQ2tKQAAAAPxhgh2DzSQl81gG0OUXV5vkitHgbvPIc/uzE+idewsQiorkwT6WJvqRIgZ67YB4iubOtSA/BFBGr+S0kplVdcA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -620,6 +620,24 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
+      DTS:refId="Package\Add missing category"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{1a7277e4-dc73-42a0-b65e-a47424114203}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Add missing category"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{25753452-D059-4DE0-AB9E-B231BDDF8337}"
+          SQLTask:SqlStatementSource="insert into DIM_Product_category_name_translation values('pc_gamer','pc_gamer');&#xA;insert into DIM_Product_category_name_translation values('portateis_cozinha_e_preparadores_de_alimentos','kitchen_and_food_preparators_portables')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Add NULL Category"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -629,7 +647,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Add NULL Category"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -647,7 +665,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delelte dim_category_name"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -665,7 +683,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete customer,seller,location"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -683,7 +701,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete dim_item"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -701,7 +719,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Delete dim_payment"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -719,7 +737,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete dim_product"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -736,7 +754,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete dim_review"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -754,7 +772,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Delete DIM_Time"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="6">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -772,7 +790,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="DELETE FACT"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="7">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -8167,7 +8185,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="set empty category produc null"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -8209,6 +8227,14 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 11"
       DTS:To="Package\DIM_Time" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 12]"
+      DTS:CreationName=""
+      DTS:DTSID="{383EB232-327E-486B-B942-2C6B8789485D}"
+      DTS:From="Package\Add NULL Category"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 12"
+      DTS:To="Package\Add missing category" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -8285,7 +8311,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\Add NULL Category"
@@ -8604,14 +8630,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.6823529009588"
+              EndConnector="0,38.682352900959"
               Start="0,0"
-              End="0,31.1823529009588">
+              End="0,31.182352900959">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.1823529009588" />
+                    End="0,31.182352900959" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8634,6 +8660,44 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,45.2579831968199" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Add missing category"
+          TopLeft="44.5428572325682,258.282352923749" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 12]"
+          TopLeft="280.816327128396,294.188235107776">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-57.0734698958278,-15.1058821840273"
+              Start="0,0"
+              End="-49.5734698958278,-15.1058821840273">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-24.5367349479139,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-24.5367349479139,0"
+                    Point2="-28.5367349479139,0"
+                    Point3="-28.5367349479139,-4" />
+                  <mssgle:LineSegment
+                    End="-28.5367349479139,-11.1058821840273" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-28.5367349479139,-11.1058821840273"
+                    Point2="-28.5367349479139,-15.1058821840273"
+                    Point3="-32.5367349479139,-15.1058821840273" />
+                  <mssgle:LineSegment
+                    End="-49.5734698958278,-15.1058821840273" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

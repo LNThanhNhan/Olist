@@ -20,40 +20,44 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM Customer.dim</Name>
-      <FullPath>DIM Customer.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM Time.dim</Name>
-      <FullPath>DIM Time.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>FACT.dim</Name>
-      <FullPath>FACT.dim</FullPath>
+      <Name>DIM Order.dim</Name>
+      <FullPath>DIM Order.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Seller.dim</Name>
       <FullPath>DIM Seller.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>DIM Time.dim</Name>
+      <FullPath>DIM Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>DIM Location.dim</Name>
       <FullPath>DIM Location.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Product.dim</Name>
-      <FullPath>DIM Product.dim</FullPath>
+      <Name>DIM Customer.dim</Name>
+      <FullPath>DIM Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Product Category Name Translation.dim</Name>
       <FullPath>DIM Product Category Name Translation.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Item.dim</Name>
-      <FullPath>DIM Item.dim</FullPath>
+      <Name>DIM Order Item.dim</Name>
+      <FullPath>DIM Order Item.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Payment.dim</Name>
       <FullPath>DIM Payment.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Review.dim</Name>
+      <FullPath>DIM Review.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Product.dim</Name>
+      <FullPath>DIM Product.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
