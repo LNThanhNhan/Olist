@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1d4a21e6-4b29-454c-b78c-093918178c28" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c9da7a57-92e8-490b-b512-86debb1d1af7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Olist</ID>
   <Name>Olist</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-388" scrolltop="1450" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="25252" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3698" scrolltop="5839" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="25252" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -336,11 +336,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-388</Value>
+      <Value>-3698</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>1450</Value>
+      <Value>5839</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -352,215 +352,215 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>65</Value>
+      <Value>85</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="3a800ffc-19db-42cc-9685-07256b5ac90e">
+    <Dimension dwd:design-time-name="eaca567b-c8b0-4aaa-a41d-59000f8d427a">
       <ID>DIM Seller</ID>
       <Name>DIM Seller</Name>
       <DimensionID>DIM Seller</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e3919e1e-30de-4a7c-83ab-027891bc18de">
+        <Attribute dwd:design-time-name="87bd86fd-887d-4f55-bc0f-19af7796c680">
           <AttributeID>Seller Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8030e08c-a290-481b-b49c-9e6c67076a6b">
+        <Attribute dwd:design-time-name="1db68d66-e664-4fa8-aeff-36f4ceb21f7f">
           <AttributeID>Location Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="ed631b0c-8974-438b-bcbb-2e76a2c3762d">
+    <Dimension dwd:design-time-name="6e1bfcc0-96cc-4a45-9b6d-456b2becb2e5">
       <ID>DIM Product Category Name Translation</ID>
       <Name>DIM Product Category Name Translation</Name>
       <DimensionID>DIM Product Category Name Translation</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b3ef48d3-5572-4038-b041-3ce0dad6a622">
+        <Attribute dwd:design-time-name="f7dc67cb-39f1-42ca-920c-e3100f2471c4">
           <AttributeID>Product Category Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cca35350-5fc0-45a4-af7c-69d29c67d10c">
+        <Attribute dwd:design-time-name="800b24b2-d4d8-4345-8f46-15e5a7052542">
           <AttributeID>Product Category Name English</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="68ea8a21-1ae1-4618-b384-89d2eac61a8f">
+    <Dimension dwd:design-time-name="aa1b3272-31dc-41f9-a0ec-9e156e56c102">
       <ID>DIM Customer</ID>
       <Name>DIM Customer</Name>
       <DimensionID>DIM Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="66c635e6-4c51-4962-a567-7856edc9cbae">
+        <Attribute dwd:design-time-name="99d8d70d-b152-4f21-979f-61c068b42300">
           <AttributeID>Customer Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8381a7fc-dd48-4fff-a09c-87bd05172a21">
+        <Attribute dwd:design-time-name="008e6fda-6305-40cb-b707-a53c2da3cbd7">
           <AttributeID>Customer Unique Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6720bee1-be77-4700-ac69-3d50402975ac">
+        <Attribute dwd:design-time-name="58873f87-9c7a-475f-9a5a-062f0e0d08b9">
           <AttributeID>Location Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="36664fa1-d7fb-49c4-b149-f7bf566fe932">
+    <Dimension dwd:design-time-name="e16bb3c4-f324-4333-a982-83d22cbde7ff">
       <ID>DIM Location</ID>
       <Name>DIM Location</Name>
       <DimensionID>DIM Location</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c60fed6d-0fd2-487f-adf8-3b14fd10f6e4">
+        <Attribute dwd:design-time-name="ddd481ae-65ec-4923-9f67-cdbb38500687">
           <AttributeID>Location Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="33a8b5ae-fe1e-40ea-b3b2-8955cfb44eda">
+        <Attribute dwd:design-time-name="4985694c-7372-4108-bc45-c38ffd1d584d">
           <AttributeID>State</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f8742a3f-5f53-46f0-8438-52c5f9eb6228">
+        <Attribute dwd:design-time-name="0205f181-5727-4e13-8b98-0930f752febe">
           <AttributeID>City</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="72dc2884-414e-449f-b509-786568576ab8">
+        <Hierarchy dwd:design-time-name="daf3084a-6143-48ad-8f0f-25501fdfaa0b">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="948cc9e8-f304-4f40-891e-9e6fbdab941b">
+    <Dimension dwd:design-time-name="c12f880d-1e1e-4b0b-accd-0d986f8e0ef7">
       <ID>DIM Order</ID>
       <Name>DIM Order</Name>
       <DimensionID>DIM Order</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ea8240f7-f200-4368-a648-0c840c4b0802">
+        <Attribute dwd:design-time-name="dff6fcda-d759-41f6-8766-3f1e3cd5e348">
           <AttributeID>Order Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4b3b5593-5ae3-40d5-9935-e061bd6aefec">
+        <Attribute dwd:design-time-name="916631fa-e9c5-42ab-b829-42269112a52a">
           <AttributeID>Customer Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ada1d0f8-7e24-4655-b50f-a3de699d7281">
+        <Attribute dwd:design-time-name="8b93cf14-7cdb-4897-be61-fba8f4737522">
           <AttributeID>Order Purchase Timestamp</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a27f35f5-3e11-4462-b18f-7ce7ced97289">
+        <Attribute dwd:design-time-name="cdcb7ab4-fcba-4192-bb89-537eb7e01dfd">
           <AttributeID>Order Status</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="df60cb4e-1971-49f1-8373-c0547d1ed0c9">
+    <Dimension dwd:design-time-name="20ba5c73-ddb6-4f1b-bad0-f8b1b0c462e4">
       <ID>DIM Order Item</ID>
       <Name>DIM Order Item</Name>
       <DimensionID>DIM Order Item</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1e096e59-693f-487b-8bae-d44c003b47f3">
+        <Attribute dwd:design-time-name="99168c94-e2ef-44de-a28c-aa6121279d38">
           <AttributeID>Order Id Order Item Id Product Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b8aa54c0-cfb1-46cb-8a4b-1aca74775b6c">
+        <Attribute dwd:design-time-name="8154b60b-b8ff-4991-b072-9fc71aebfde9">
           <AttributeID>Order Item Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="745aa355-3a6e-4ad8-8d63-db7134c10b4c">
+        <Attribute dwd:design-time-name="09a051a1-0d0c-462b-aef3-f537cbb64e1e">
           <AttributeID>Price</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2cb01a85-baad-49b2-8a82-722d777a0f78">
+        <Attribute dwd:design-time-name="58e59adb-3c3f-47d4-a31a-648da4b4d8fb">
           <AttributeID>Freight Value</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f3cf03ff-9c21-4b50-932e-84787be14d24">
+        <Attribute dwd:design-time-name="00c055a5-e9dd-4d3e-bde4-01e7b4af0092">
           <AttributeID>Order Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7e0e4113-0f78-46cb-be92-61b8daec6d4f">
+        <Attribute dwd:design-time-name="6ee96895-37e2-418b-969e-4f9a183903b0">
           <AttributeID>Product Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e00f9f91-0628-4bdf-99aa-4c26da2d2590">
+        <Attribute dwd:design-time-name="7d00b0cf-ac36-47b9-bc1a-811eab657fb8">
           <AttributeID>Seller Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="4acf83be-a9a0-4e60-8ff6-afd854eb5846">
+    <Dimension dwd:design-time-name="beeb3b8c-6ca8-4aec-8c81-a9efbffca78b">
       <ID>DIM Review</ID>
       <Name>DIM Review</Name>
       <DimensionID>DIM Review</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b29266da-59e8-40f8-8f58-16704fbcc92c">
+        <Attribute dwd:design-time-name="446f3b96-5c9d-496e-a9fa-423eb4b930e9">
           <AttributeID>Review Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4a0d59a5-38a7-4421-9e31-102de949eaa1">
+        <Attribute dwd:design-time-name="5bb66194-5941-48ad-9408-169165e66dfa">
           <AttributeID>Review Score</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="345f18bf-5dcc-4cb6-b54f-6779cb13a667">
+        <Attribute dwd:design-time-name="d1e9eaf9-4995-42be-b702-d61199b05fd6">
           <AttributeID>Order Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2136ff0b-1134-4922-aa63-5fc6ffc78c92">
+    <Dimension dwd:design-time-name="fcb97c6a-b19e-45e4-982c-2982bb5227be">
       <ID>DIM Time</ID>
       <Name>DIM Time</Name>
       <DimensionID>DIM Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="670acf64-bda1-4963-8147-a86496afe61e">
+        <Attribute dwd:design-time-name="25259222-ef16-4208-a168-42ff691342e1">
           <AttributeID>Timestamp</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6e59549a-251a-4447-a74a-6837eabda53f">
+        <Attribute dwd:design-time-name="9b450619-3d66-4473-aae6-9a935bfed11e">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="018e36dd-2f6a-440b-b927-2116d96d79bb">
+        <Attribute dwd:design-time-name="8846f67a-4ccb-4327-a493-18dc13157d21">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="39a82768-8c6e-48e1-8105-2a654c2a8df7">
+        <Attribute dwd:design-time-name="c04dea98-4c63-469d-b5cc-5f68125eeda3">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7345b05e-fcd2-4709-aa5e-99dbc586549c">
+        <Attribute dwd:design-time-name="93a7b376-e4f6-4036-8c30-2dc1a54947ad">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4a25b40b-e638-4532-bacc-ad04d142832d">
+        <Attribute dwd:design-time-name="cd1abeed-13d8-4046-9c67-06f9d521b0e8">
           <AttributeID>Weeekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="71bb5374-2859-45ba-a5bb-83ab60d8f06d">
+        <Attribute dwd:design-time-name="49a9db26-7f12-470f-9df2-aedd41f52ed3">
           <AttributeID>Weeekday Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="923a1125-9fce-4155-8cdc-c9cd5713cb15">
+        <Hierarchy dwd:design-time-name="98bc87e4-4a1c-4e0b-9bee-fdcc25e250df">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="a85dc574-1955-4205-afbf-6b117717b162">
+        <Hierarchy dwd:design-time-name="6a60fcd0-1ad7-4bbb-9737-ce0593d65aef">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="0933ccfc-6a28-4819-9220-84cb61e8d1a8">
+        <Hierarchy dwd:design-time-name="d177ebf9-4796-422a-aad1-d9e1af426899">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="da89d396-3bd2-4597-884b-d444d8e4b75c">
+    <Dimension dwd:design-time-name="7741f9b1-8cf7-48c4-b2b1-1020c927d735">
       <ID>DIM Payment</ID>
       <Name>DIM Payment</Name>
       <DimensionID>DIM Payment</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fc8dd4a8-6c6c-4445-af78-82895467afcb">
+        <Attribute dwd:design-time-name="e770b2f4-9060-4fa5-84e3-a2c9d1cfd8ba">
           <AttributeID>Order Id Payment Sequential</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="99f0f15b-b0d2-4a36-89b2-492c0dd0698b">
+        <Attribute dwd:design-time-name="8f7c3149-8e7e-4476-9020-c6ce89eb9a97">
           <AttributeID>Payment Sequential</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a4c3189c-0dfa-418e-87d8-009b8f374ffe">
+        <Attribute dwd:design-time-name="68172ad0-c62d-45f7-ae53-2aba3e8481cc">
           <AttributeID>Payment Type</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="981ffda1-5086-431f-ab5e-cc371b5f825b">
+        <Attribute dwd:design-time-name="6cdb5efd-d7a2-4c83-9242-42758d74612a">
           <AttributeID>Payment Value</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f6906e81-27cd-4110-832d-8cb6d0aaf113">
+        <Attribute dwd:design-time-name="1b9fc85e-71a6-40ed-bc1c-49138a01a715">
           <AttributeID>Order Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="412fc41a-9e9e-4a12-8c90-7a9c2d2846da">
+    <Dimension dwd:design-time-name="d5bc8582-4734-43e1-a10b-b8d09d96483c">
       <ID>DIM Product</ID>
       <Name>DIM Product</Name>
       <DimensionID>DIM Product</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="53d09aa5-2ae9-45ce-b0bc-f91b6d31dbda">
+        <Attribute dwd:design-time-name="f7e7f350-a89b-4aa6-8927-852eb8e0eef0">
           <AttributeID>Product Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="53c21f03-aced-485c-b35c-3baffcc4a98b">
+        <Attribute dwd:design-time-name="f6dc7daf-ecf2-494c-b3b6-ad9b5f45edfe">
           <AttributeID>Product Category Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="143f48ee-d801-4866-9638-3e2d537126fc">
+    <MeasureGroup dwd:design-time-name="987cf6db-d4fd-4d61-914b-d98678d10bff">
       <ID>DIM Order Item</ID>
       <Name>DIM Order Item</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -568,36 +568,36 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="7a757581-2883-48d2-8117-6437e15636fd">
+        <Measure dwd:design-time-name="7a3459b9-bada-4064-bce7-f18f90ece2f2">
           <ID>Price</ID>
           <Name>Price</Name>
-          <Source dwd:design-time-name="cc40cff1-e2d7-468a-b0ed-6f3d52358946">
-            <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ea8c9bd8-f9f2-4dd1-a1d6-0b1b4f90d8d1">
+          <Source dwd:design-time-name="7081d32f-e0a1-4b77-b1fc-69393e5d4554">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d542d580-56b2-480b-88c0-73690dfa52df">
               <TableID>dbo_DIM_OrderItem</TableID>
               <ColumnID>price</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c705065b-41fb-47d0-8854-a658b635b40e">
+        <Measure dwd:design-time-name="f0c7ccb5-4786-44fb-9334-d15aa8328d5d">
           <ID>Freight Value</ID>
           <Name>Freight Value</Name>
-          <Source dwd:design-time-name="2c01800c-ad20-4517-baec-bcafe2a10aa4">
+          <Source dwd:design-time-name="41521f91-22c7-4a24-b5ae-6a5e475fadfd">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="62fc238e-dabd-4310-a538-d0d5baedf414">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="77a513ed-a63d-459d-8dbd-ca795c4d3365">
               <TableID>dbo_DIM_OrderItem</TableID>
               <ColumnID>freight_value</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="77c4e671-2a12-4433-8c77-fb92c9c66748">
+        <Measure dwd:design-time-name="4aacfd20-81ca-4e7f-92d7-02cb4ab7bd2d">
           <ID>DIM Order Item Count</ID>
           <Name>DIM Order Item Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="7e8317b6-5c3e-405f-ae92-fcf1a0876f37">
+          <Source dwd:design-time-name="7419229c-ad81-4c8f-a65b-6061f6dc36da">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="1cf83fde-b2df-417a-85de-32548b684f5c">
+            <Source xsi:type="RowBinding" dwd:design-time-name="91316e40-476f-433d-8402-88f881fb5dc2">
               <TableID>dbo_DIM_OrderItem</TableID>
             </Source>
           </Source>
@@ -606,17 +606,17 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="86bf85a2-67e9-480a-bd98-a2ef35066803">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6e5eb10a-8c05-4988-bd6b-c36b79e27b3a">
           <CubeDimensionID>DIM Seller</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7878ab37-213d-43ee-9c6d-1ac242bfedba">
+            <Attribute dwd:design-time-name="c33318ff-88cf-4c9e-941c-810679f25a19">
               <AttributeID>Seller Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c51ff279-6ee5-4117-9237-4e2e7fa98aa6">
+                <KeyColumn dwd:design-time-name="02b28311-5ef0-4ebd-b798-2902cad216a2">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c4a4e65e-952b-4560-b9b7-abb9c6e6302a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e5478b6a-3b13-4584-b250-072c4a5140e9">
                     <TableID>dbo_DIM_OrderItem</TableID>
                     <ColumnID>seller_id</ColumnID>
                   </Source>
@@ -626,16 +626,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6e5a2083-5cf1-4091-975e-ddc794339bd1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7433ac53-a8ff-4157-b9c8-f8d1ba31bda5">
           <CubeDimensionID>DIM Order</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="40d08e9b-7e4c-4853-8fb4-e67e98b4580c">
+            <Attribute dwd:design-time-name="1a68f341-9f27-4bfc-9545-72e7b0dbf568">
               <AttributeID>Order Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4f2dd1db-70e2-42d5-8d20-06480b6b5401">
+                <KeyColumn dwd:design-time-name="7fa077a6-ea3f-4e41-a555-8ef4b2cf65f1">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="697a1660-f195-490b-913d-871e97ac8871">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="25c010aa-a6b4-451c-aec1-a0b7075ea8d8">
                     <TableID>dbo_DIM_OrderItem</TableID>
                     <ColumnID>order_id</ColumnID>
                   </Source>
@@ -645,16 +645,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2a5de126-30e3-42a6-a941-702eb207ae2d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e625636-1334-49d7-b803-35093e60e7c8">
           <CubeDimensionID>DIM Product</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="29307066-b354-4e27-b7cc-035f473620b2">
+            <Attribute dwd:design-time-name="09ae1986-9844-44f4-9fa5-b3c3d2bcd674">
               <AttributeID>Product Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3368844e-2a43-482f-8687-16e6248dae4d">
+                <KeyColumn dwd:design-time-name="9cdc0f18-2daf-4a41-abb2-d3a15f4f7b63">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6eb20a5b-85b9-459d-b300-60059588fd29">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11fc550f-4db0-4b8f-a444-6231f9fffa7e">
                     <TableID>dbo_DIM_OrderItem</TableID>
                     <ColumnID>product_id</ColumnID>
                   </Source>
@@ -664,16 +664,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e8f1dec9-e027-43fc-a4a1-cc36c16770ae">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="237c5c1e-f4c9-45bd-bd4f-d893b2e188bf">
           <CubeDimensionID>DIM Order Item</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="32db95c1-bf33-45f8-83b0-22787d54c2a1">
+            <Attribute dwd:design-time-name="eda10434-ab7a-4c5e-9bb0-a627deb51701">
               <AttributeID>Order Id Order Item Id Product Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d6438949-5e70-497c-a677-27dbf56f5140">
+                <KeyColumn dwd:design-time-name="69418ad8-ec92-4598-ad27-63a21d5977da">
                   <DataType>WChar</DataType>
                   <DataSize>522</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d06cd029-bd6e-4fe5-adaa-80bbe966d1f4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37288c1b-e3ea-4adc-9289-9deb069ed5e3">
                     <TableID>dbo_DIM_OrderItem</TableID>
                     <ColumnID>order_id_order_item_id_product_id</ColumnID>
                   </Source>
@@ -683,10 +683,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="0d4272e4-0a83-4f2b-872c-7645a5c43c73">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7be9f49e-0c49-4113-ad0d-d264b8fea864">
           <CubeDimensionID>DIM Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3333b2a1-f555-4d5d-8f28-9498ac07c92b">
+            <Attribute dwd:design-time-name="272348cc-e7c9-467b-8498-0c5090992beb">
               <AttributeID>Timestamp</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -696,10 +696,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d4b8a164-7799-41b7-863d-5849b8511c9d">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d22283d6-a895-44cd-af03-404d115f513a">
           <CubeDimensionID>DIM Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8fa5f2fa-3686-490b-bac0-b0b155081a38">
+            <Attribute dwd:design-time-name="86597400-4fc8-4e8b-ab8e-52e836f11489">
               <AttributeID>Customer Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -709,10 +709,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d1707f06-e015-4dc0-9bf1-e80e0b52ebb8">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5601b030-7211-4f2f-9fe8-27818b045b33">
           <CubeDimensionID>DIM Location</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="28ff208c-10cc-482c-846c-5eeafa4a2ad8">
+            <Attribute dwd:design-time-name="674f9ed0-e291-4f61-a849-bfd508024643">
               <AttributeID>Location Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -722,10 +722,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c01b06c5-657d-4a4d-a4a5-ac15b30417b7">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ac7f50cd-ad51-4ce0-be5c-8558e43ad937">
           <CubeDimensionID>DIM Product Category Name Translation</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a0107ab2-a9ec-4385-91e5-50c9e6b02598">
+            <Attribute dwd:design-time-name="186559a7-4cbc-4039-adf3-b2f8203039f0">
               <AttributeID>Product Category Name</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -738,7 +738,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="ee74e047-8598-4a6f-bf48-824e8ac6e0c7">
+    <MeasureGroup dwd:design-time-name="9aa0431c-25cd-4e37-bc9b-68375ac89322">
       <ID>DIM Payment</ID>
       <Name>DIM Payment</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -746,25 +746,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="7e3ee167-29a1-43d4-abf2-c18da151e09a">
+        <Measure dwd:design-time-name="58ad08f2-2045-4344-a8ce-75a7b800c416">
           <ID>Payment Value</ID>
           <Name>Payment Value</Name>
-          <Source dwd:design-time-name="02bc825d-d2ae-4be3-b6a9-0cac470f51b5">
+          <Source dwd:design-time-name="4515b640-11f6-422e-acaf-6b5d9ba5a817">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b22518e-f53f-403a-a2de-c23efaef2502">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6ca449f9-81f5-48fe-8d17-8718dd886427">
               <TableID>dbo_DIM_Payment</TableID>
               <ColumnID>payment_value</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fb8637a1-dd03-4127-bf89-0122199dbf04">
+        <Measure dwd:design-time-name="119ecf23-f114-40dd-93be-7edf4c3e54e0">
           <ID>DIM Payment Count</ID>
           <Name>DIM Payment Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="785d8135-e8fd-4a55-bbe3-1bcf4a5c5f31">
+          <Source dwd:design-time-name="c74b5dd4-ff6f-4d76-897d-e92cb073ada6">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d43425ca-110a-4800-90d1-d9497933811c">
+            <Source xsi:type="RowBinding" dwd:design-time-name="0b7ae465-7a6f-4afb-8805-8e3ff2ae6f68">
               <TableID>dbo_DIM_Payment</TableID>
             </Source>
           </Source>
@@ -773,16 +773,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2086623b-167a-478c-9f68-dd376830c88e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="44de8b97-0148-4826-8138-e9ea1fcb5b57">
           <CubeDimensionID>DIM Order</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fd4fe874-2489-4c27-a264-e0d1906d49ca">
+            <Attribute dwd:design-time-name="4ea224f7-0f0b-46be-a741-0704650a3ad7">
               <AttributeID>Order Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ffbddb36-380b-4893-a77c-31dc8f38899f">
+                <KeyColumn dwd:design-time-name="c32fcfc5-c87e-4656-8663-c8a8e8665c6f">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="93476d89-0cd6-45ad-96eb-2fe1b69a5606">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a87585c7-8ecd-4c0d-ae70-a2bda74e892b">
                     <TableID>dbo_DIM_Payment</TableID>
                     <ColumnID>order_id</ColumnID>
                   </Source>
@@ -792,10 +792,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b8c1e039-1cb5-4bef-9be9-dc2a9da8277e">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b5d84329-e45f-4b84-b696-4b09986502fa">
           <CubeDimensionID>DIM Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b1835415-6338-400e-8fc3-d95cc1e583c8">
+            <Attribute dwd:design-time-name="961ab4d9-34cb-4969-a28a-18069a0d6024">
               <AttributeID>Customer Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -805,16 +805,16 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e53ea2df-c00a-4e1a-8975-a2341ee68b6b">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="dcbfae1c-90bb-4003-acbb-276c3cfb6a65">
           <CubeDimensionID>DIM Payment</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fc23c565-bbfe-425f-8b5c-33508653a800">
+            <Attribute dwd:design-time-name="d119b45e-e5de-45a6-9214-e555dc04861d">
               <AttributeID>Order Id Payment Sequential</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="673a0e99-7a1d-42cc-beda-f26f52ed0c48">
+                <KeyColumn dwd:design-time-name="2b7aa2a1-db2c-448d-84d0-971a02eae0b6">
                   <DataType>WChar</DataType>
                   <DataSize>266</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f23d6f30-92f3-430b-92ca-9e763a16d32e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="95983860-d55f-45bf-86f9-fd7fba808d91">
                     <TableID>dbo_DIM_Payment</TableID>
                     <ColumnID>order_id_payment_sequential</ColumnID>
                   </Source>
@@ -824,10 +824,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="9a7ec505-d71e-43d9-8d00-63338450cbe5">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a9e7e977-0417-4273-afcf-f4a0c20a8225">
           <CubeDimensionID>DIM Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0383d2b0-43c9-4414-b3a5-2976233e49d1">
+            <Attribute dwd:design-time-name="17b6fc9f-7c60-4776-8313-99347700d020">
               <AttributeID>Timestamp</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -840,7 +840,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="caa8613c-1f8f-4e99-9433-77499d42c0cc">
+    <MeasureGroup dwd:design-time-name="566bd873-4d90-46eb-8597-2e68b0f6ba3b">
       <ID>DIM Review</ID>
       <Name>DIM Review</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -848,25 +848,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="42725c17-1c73-46a5-ae24-3bf7544b73b9">
+        <Measure dwd:design-time-name="08290909-44ad-429e-a9e1-04a4b2e1ceff">
           <ID>Review Score</ID>
           <Name>Review Score</Name>
-          <Source dwd:design-time-name="27947846-5f9a-4b8c-8f03-283969de832b">
+          <Source dwd:design-time-name="ee03e574-ba29-4914-97fe-19054f20c5af">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c2a124b-bc4c-4d7b-8208-09625c434cca">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0a30d32f-463d-42c4-a7e8-1a2bf1c43288">
               <TableID>dbo_DIM_Review</TableID>
               <ColumnID>review_score</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="94af6a18-a864-407c-adda-5d04af7d1884">
+        <Measure dwd:design-time-name="0929a4b0-8f7d-43e1-b94c-225ba3725ea2">
           <ID>DIM Review Count</ID>
           <Name>DIM Review Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="fdd86c7e-57a8-4a76-9371-8c94225af765">
+          <Source dwd:design-time-name="fd30cc8b-e1c7-41d2-a05e-dc8f6cee9b71">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="6bb0b8a1-6453-43aa-980d-1f44c67dea94">
+            <Source xsi:type="RowBinding" dwd:design-time-name="5b593ca1-d107-44bc-b92b-e26bad77331e">
               <TableID>dbo_DIM_Review</TableID>
             </Source>
           </Source>
@@ -875,17 +875,17 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c5f1ab9b-b68d-4a03-8ac1-c69379b850d8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="744fe395-e8fe-4023-88ac-b52ca302a38b">
           <CubeDimensionID>DIM Order</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="be3e1215-1b2e-4f6b-acf2-60b70423e475">
+            <Attribute dwd:design-time-name="8f1af9fb-7c92-4617-b697-da8909d368c4">
               <AttributeID>Order Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="452c5f6b-9fea-461d-9bae-639c993dd211">
+                <KeyColumn dwd:design-time-name="16e6cbd8-5822-44bf-b9d2-e04a808e9e99">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89773353-e3f3-45e3-8d19-1c15e73ffbf3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="83a77b02-cbdd-4f72-a09b-624a3b4394e2">
                     <TableID>dbo_DIM_Review</TableID>
                     <ColumnID>order_id</ColumnID>
                   </Source>
@@ -895,15 +895,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="85692e43-006d-46f8-87ac-5ee174b40345">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="566e380d-8c28-49d2-b4b1-5f58c72309ac">
           <CubeDimensionID>DIM Review</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="29eefc85-5d48-47ce-a3bb-1a91bd746495">
+            <Attribute dwd:design-time-name="10cb3f30-76cf-468f-a358-d120666a95af">
               <AttributeID>Review Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5974921d-0d84-4a57-b9b9-1ad1a71f15cb">
+                <KeyColumn dwd:design-time-name="fd35fedb-0e27-4d09-895c-50e05666bb0c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f50dc5f-9137-41cc-a7a6-47107943928d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2868de2b-4e94-4284-b3e5-aa670a56ad48">
                     <TableID>dbo_DIM_Review</TableID>
                     <ColumnID>review_id</ColumnID>
                   </Source>
@@ -913,10 +913,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="73b89438-ba0d-417d-82a6-76c58f270750">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="9b01b7fa-f10d-46ed-8ac4-20f7a3c99a42">
           <CubeDimensionID>DIM Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e08c8d6f-127e-4c2a-b357-678c288249e7">
+            <Attribute dwd:design-time-name="964d3a9c-db86-47ab-9a19-a1b6a6721da1">
               <AttributeID>Customer Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -926,10 +926,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f5a781dc-d805-469d-802c-58dc457b6ac2">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f64677cb-1dc8-46bf-80f7-fc296c545022">
           <CubeDimensionID>DIM Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5bf30500-da02-4066-8941-6f1e9abdca1f">
+            <Attribute dwd:design-time-name="b7992727-7375-470c-b8e3-8152dbfac0c8">
               <AttributeID>Timestamp</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -943,7 +943,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="cdc0fe9e-fdc5-40a0-a251-7048143d7bed">
+  <Source dwd:design-time-name="5c544b43-cdda-4f81-8a33-b9f1df424126">
     <DataSourceViewID>Olist</DataSourceViewID>
   </Source>
 </Cube>

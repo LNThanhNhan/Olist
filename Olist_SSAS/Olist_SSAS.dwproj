@@ -80,7 +80,7 @@
           <ConfigurationSetting>
             <Id>Olist</Id>
             <Name>Olist</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=NHAN;Persist Security Info=True;Password=;User ID=;Initial Catalog=Olist</Value>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=NHAN;Persist Security Info=True;Password=;User ID=;Initial Catalog=Olist_DW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

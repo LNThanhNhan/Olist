@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="112"
-  DTS:VersionGUID="{95305053-FCC4-4029-BF78-07594E4D660C}">
+  DTS:VersionBuild="116"
+  DTS:VersionGUID="{1F49B5E3-DDD3-4BF4-BA3A-C191893F1FA6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -295,19 +295,19 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[NHAN.Olist.olap]"
+      DTS:refId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{25753452-D059-4DE0-AB9E-B231BDDF8337}"
-      DTS:ObjectName="NHAN.Olist.olap">
+      DTS:ObjectName="NHAN.Olist_DW.olap">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=NHAN;User ID=olap;Initial Catalog=Olist;Provider=SQLOLEDB.1;Auto Translate=False;Application Name=SSIS-Package-{25753452-D059-4DE0-AB9E-B231BDDF8337}LAPTOP-TN920113.Olist.olap;">
+          DTS:ConnectionString="Data Source=NHAN;User ID=olap;Initial Catalog=Olist_DW;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{25753452-D059-4DE0-AB9E-B231BDDF8337}LAPTOP-TN920113.Olist.olap;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACccXrVDaLnr2TJCg7xBjs16XhwP5g+FbxPo7I+XRFznwAAAAAOgAAAAAIAACAAAAATOyUif3IMSmTjfTP+22itg9y4+ZZa2I9nbNd17Ht/iRAAAAAuTJHp4CIxKrgN4K61c78oQAAAADGdJTFa5Ru3+7xWbQFbVk4pYwj8YzRiPFQ6fHxY5thteMQ+aFKZMc4c2bMnJdBMcvP/trrCL1CyXNWuCvbayqU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABA7YQP2xKcnXelbV00vz0FXEgZ3w8eK2va81DrHqEegAAAAAOgAAAAAIAACAAAADeUxchYpU+qhSO7/Emq360gmvR56W1o5sWXrl4OfrLWhAAAACNviu9X0djfOcWzEtZmTDlQAAAAGLLQ977ZYFO8MIFV5ZkfQZr7PMhnHaORy7wtaXEVPerpDABlrTiqUo9qYorOueonH2Kdelt780RBppZtn3tq5U</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -623,13 +623,12 @@
       DTS:refId="Package\Add &quot;null&quot; Category"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{D654B6BD-7F83-4C2C-83E7-442CB6EB3B51}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Add &quot;null&quot; Category"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -641,13 +640,12 @@
       DTS:refId="Package\Add missing category"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{1a7277e4-dc73-42a0-b65e-a47424114203}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Add missing category"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -659,13 +657,12 @@
       DTS:refId="Package\delelte DIM_Category_name"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{51979CF0-E704-4D5D-A5AF-5FCD2C70976E}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="delelte DIM_Category_name"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -677,13 +674,12 @@
       DTS:refId="Package\delete customer,seller,location"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{F9275EAE-A437-49F4-9CF3-BA6667FF1A96}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="delete customer,seller,location"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -695,13 +691,12 @@
       DTS:refId="Package\DELETE DIM_Order"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{05827443-44C6-4BF2-8CBA-32227F97F525}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="DELETE DIM_Order"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="6">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -718,7 +713,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete DIM_OrderItem"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="7">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -730,7 +725,6 @@
       DTS:refId="Package\Delete DIM_Payment"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{57510468-DE3D-4C8F-9A9A-4F30CA7BFCC5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -748,7 +742,6 @@
       DTS:refId="Package\delete dim_product"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{0C3064D3-E751-4224-902A-5B6008EB23ED}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -766,13 +759,12 @@
       DTS:refId="Package\delete DIM_Review"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{AADC1064-EDED-41E2-BD48-DA439A9004C5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="delete DIM_Review"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -784,13 +776,12 @@
       DTS:refId="Package\Delete DIM_Time"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{F513211F-D8A5-427F-9D70-F0A545925B22}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Delete DIM_Time"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -802,7 +793,6 @@
       DTS:refId="Package\DIM_Category_name"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{B36BBD61-9034-4127-8882-36FDFEF39D02}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1084,8 +1074,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Category_name\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1122,13 +1112,13 @@
                       refId="Package\DIM_Category_name\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_category_name]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="100"
                       name="product_category_name" />
                     <externalMetadataColumn
                       refId="Package\DIM_Category_name\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_category_name_english]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="100"
                       name="product_category_name_english" />
                   </externalMetadataColumns>
                 </input>
@@ -1289,7 +1279,6 @@
       DTS:refId="Package\DIM_Customer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{4C554365-8973-4107-BF89-A5D98FBB7BF6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1384,6 +1373,114 @@
                       refId="Package\DIM_Customer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\DIM_Customer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DIM_Customer\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input].Columns[customer_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="customer_id"
+                      lineageId="Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input].Columns[customer_unique_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="customer_unique_id"
+                      lineageId="Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_unique_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_id]"
+                      name="copy customer_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_unique_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_unique_id]"
+                      name="copy customer_unique_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_unique_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1624,7 +1721,7 @@
                       refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Left Input].Columns[city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="city"
                       cachedSortKeyPosition="2"
                       lineageId="Package\DIM_Customer\Sort 1.Outputs[Sort Output].Columns[city]" />
@@ -1636,22 +1733,6 @@
                   hasSideEffects="true"
                   name="Merge Join Right Input">
                   <inputColumns>
-                    <inputColumn
-                      refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="customer_id"
-                      cachedSortKeyPosition="3"
-                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]" />
-                    <inputColumn
-                      refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[customer_unique_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="customer_unique_id"
-                      cachedSortKeyPosition="4"
-                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]" />
                     <inputColumn
                       refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[city]"
                       cachedCodepage="1252"
@@ -1668,6 +1749,22 @@
                       cachedName="state"
                       cachedSortKeyPosition="1"
                       lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[state]" />
+                    <inputColumn
+                      refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[customer_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="customer_id"
+                      cachedSortKeyPosition="3"
+                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[customer_unique_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="customer_unique_id"
+                      cachedSortKeyPosition="4"
+                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1678,10 +1775,23 @@
                   name="Merge Join Output">
                   <outputColumns>
                     <outputColumn
+                      refId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[location_id]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[location_id]"
+                      name="location_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\DIM_Customer\Merge Join.Inputs[Merge Join Left Input].Columns[location_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_id]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="32"
                       lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_id]"
                       name="customer_id">
                       <properties>
@@ -1696,7 +1806,7 @@
                       refId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_unique_id]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="32"
                       lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_unique_id]"
                       name="customer_unique_id">
                       <properties>
@@ -1705,19 +1815,6 @@
                           dataType="System.Int32"
                           description="The input column associated with this output column"
                           name="InputColumnID">#{Package\DIM_Customer\Merge Join.Inputs[Merge Join Right Input].Columns[customer_unique_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[location_id]"
-                      dataType="i4"
-                      lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[location_id]"
-                      name="location_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\DIM_Customer\Merge Join.Inputs[Merge Join Left Input].Columns[location_id]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1784,8 +1881,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Customer\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1801,7 +1898,7 @@
                       refId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[customer_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="32"
                       cachedName="customer_id"
                       externalMetadataColumnId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
                       lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_id]" />
@@ -1809,7 +1906,7 @@
                       refId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[customer_unique_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="32"
                       cachedName="customer_unique_id"
                       externalMetadataColumnId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_unique_id]"
                       lineageId="Package\DIM_Customer\Merge Join.Outputs[Merge Join Output].Columns[customer_unique_id]" />
@@ -1826,13 +1923,13 @@
                       refId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="customer_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_unique_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="customer_unique_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Customer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[location_id]"
@@ -1917,8 +2014,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Customer\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1954,7 +2051,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]"
                       name="city"
                       truncationRowDisposition="FailComponent" />
@@ -1975,7 +2072,7 @@
                       refId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       name="city" />
                   </externalMetadataColumns>
                 </output>
@@ -2000,7 +2097,7 @@
                       refId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
                       name="city" />
                     <outputColumn
@@ -2044,42 +2141,6 @@
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Customer\Sort.Inputs[Sort Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="customer_id"
-                      lineageId="Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">3</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\DIM_Customer\Sort.Inputs[Sort Input].Columns[customer_unique_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="customer_unique_id"
-                      lineageId="Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_unique_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">4</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\DIM_Customer\Sort.Inputs[Sort Input].Columns[customer_city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -2115,6 +2176,42 @@
                           name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\DIM_Customer\Sort.Inputs[Sort Input].Columns[copy customer_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="copy customer_id"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">3</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DIM_Customer\Sort.Inputs[Sort Input].Columns[copy customer_unique_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="copy customer_unique_id"
+                      lineageId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_unique_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">4</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2125,38 +2222,6 @@
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]"
-                      name="customer_id"
-                      sortKeyPosition="3">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]"
-                      name="customer_unique_id"
-                      sortKeyPosition="4">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_unique_id]}</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[city]"
                       codePage="1252"
@@ -2187,6 +2252,38 @@
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_Customer\Flat File Source.Outputs[Flat File Source Output].Columns[customer_state]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="32"
+                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_id]"
+                      name="customer_id"
+                      sortKeyPosition="3">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="32"
+                      lineageId="Package\DIM_Customer\Sort.Outputs[Sort Output].Columns[customer_unique_id]"
+                      name="customer_unique_id"
+                      sortKeyPosition="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output].Columns[copy customer_unique_id]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -2255,7 +2352,7 @@
                       refId="Package\DIM_Customer\Sort 1.Inputs[Sort Input].Columns[city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="city"
                       lineageId="Package\DIM_Customer\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]">
                       <properties>
@@ -2313,7 +2410,7 @@
                       refId="Package\DIM_Customer\Sort 1.Outputs[Sort Output].Columns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Customer\Sort 1.Outputs[Sort Output].Columns[city]"
                       name="city"
                       sortKeyPosition="2">
@@ -2334,9 +2431,14 @@
           <paths>
             <path
               refId="Package\DIM_Customer.Paths[check_not_null]"
-              endId="Package\DIM_Customer\Sort.Inputs[Sort Input]"
+              endId="Package\DIM_Customer\Data Conversion.Inputs[Data Conversion Input]"
               name="check_not_null"
               startId="Package\DIM_Customer\Conditional Split.Outputs[check_not_null]" />
+            <path
+              refId="Package\DIM_Customer.Paths[Data Conversion Output]"
+              endId="Package\DIM_Customer\Sort.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_Customer\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\DIM_Customer.Paths[Flat File Source Output]"
               endId="Package\DIM_Customer\Conditional Split.Inputs[Conditional Split Input]"
@@ -2370,7 +2472,6 @@
       DTS:refId="Package\DIM_Location"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{3DCAA026-A39B-4C90-8CCA-35C9F174826B}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3102,8 +3203,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Location\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3150,7 +3251,7 @@
                       refId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       name="city" />
                   </externalMetadataColumns>
                 </input>
@@ -3649,7 +3750,6 @@
       DTS:refId="Package\DIM_Order"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{F299BF69-BB2B-486A-899A-F1C07CCE4FEA}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3770,6 +3870,20 @@
                       cachedLength="50"
                       cachedName="order_purchase_timestamp"
                       lineageId="Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[order_purchase_timestamp]" />
+                    <inputColumn
+                      refId="Package\DIM_Order\Data Conversion.Inputs[Data Conversion Input].Columns[order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="order_id"
+                      lineageId="Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Order\Data Conversion.Inputs[Data Conversion Input].Columns[customer_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="customer_id"
+                      lineageId="Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3795,6 +3909,50 @@
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
                           name="SourceInputColumnLineageID">#{Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[order_purchase_timestamp]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      name="Copy of order_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer_id]"
+                      name="Copy of customer_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -4088,8 +4246,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Order\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4101,22 +4259,6 @@
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
-                    <inputColumn
-                      refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[order_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="order_id"
-                      externalMetadataColumnId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
-                    <inputColumn
-                      refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="customer_id"
-                      externalMetadataColumnId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
-                      lineageId="Package\DIM_Order\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]" />
                     <inputColumn
                       refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[order_status]"
                       cachedCodepage="1252"
@@ -4131,6 +4273,22 @@
                       cachedName="Copy of order_purchase_timestamp"
                       externalMetadataColumnId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_purchase_timestamp]"
                       lineageId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_purchase_timestamp]" />
+                    <inputColumn
+                      refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of order_id"
+                      externalMetadataColumnId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                      lineageId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of customer_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of customer_id"
+                      externalMetadataColumnId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
+                      lineageId="Package\DIM_Order\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4138,13 +4296,13 @@
                       refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="order_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="customer_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Order\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_status]"
@@ -4317,6 +4475,143 @@
                       refId="Package\DIM_OrderItem\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\DIM_OrderItem\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DIM_OrderItem\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input].Columns[order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="order_id"
+                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input].Columns[product_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="product_id"
+                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]" />
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input].Columns[seller_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="seller_id"
+                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      name="Copy of order_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]"
+                      name="Copy of product_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]"
+                      name="Copy of seller_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -4622,8 +4917,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_OrderItem\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4636,14 +4931,6 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[order_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="order_id"
-                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
-                    <inputColumn
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[order_item_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -4651,22 +4938,6 @@
                       cachedName="order_item_id"
                       externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_item_id]"
                       lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[order_item_id]" />
-                    <inputColumn
-                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="product_id"
-                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
-                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]" />
-                    <inputColumn
-                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[seller_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="seller_id"
-                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[seller_id]"
-                      lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]" />
                     <inputColumn
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[price]"
                       cachedCodepage="1252"
@@ -4683,6 +4954,30 @@
                       cachedName="freight_value"
                       externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[freight_value]"
                       lineageId="Package\DIM_OrderItem\Flat File Source.Outputs[Flat File Source Output].Columns[freight_value]" />
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of order_id"
+                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of product_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of product_id"
+                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]" />
+                    <inputColumn
+                      refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of seller_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of seller_id"
+                      externalMetadataColumnId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[seller_id]"
+                      lineageId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4690,7 +4985,7 @@
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="order_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_item_id]"
@@ -4700,13 +4995,13 @@
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="product_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[seller_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="seller_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[price]"
@@ -4752,9 +5047,14 @@
           <paths>
             <path
               refId="Package\DIM_OrderItem.Paths[Check_not_null]"
-              endId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              endId="Package\DIM_OrderItem\Data Conversion.Inputs[Data Conversion Input]"
               name="Check_not_null"
               startId="Package\DIM_OrderItem\Conditional Split.Outputs[Check_not_null]" />
+            <path
+              refId="Package\DIM_OrderItem.Paths[Data Conversion Output]"
+              endId="Package\DIM_OrderItem\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_OrderItem\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\DIM_OrderItem.Paths[Flat File Source Output]"
               endId="Package\DIM_OrderItem\Conditional Split.Inputs[Conditional Split Input]"
@@ -4768,7 +5068,6 @@
       DTS:refId="Package\DIM_Payment"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{D040B2FB-7A28-4882-9077-48FF22E4B448}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4878,6 +5177,114 @@
               </outputs>
             </component>
             <component
+              refId="Package\DIM_Payment\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input].Columns[order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="order_id"
+                      lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input].Columns[payment_type]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="payment_type"
+                      lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_type]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
+                      name="Copy of order_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of payment_type]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of payment_type]"
+                      name="Copy of payment_type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_type]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\DIM_Payment\DIM_Payment"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -4936,8 +5343,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Payment\DIM_Payment.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4950,14 +5357,6 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[order_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="order_id"
-                      externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
-                    <inputColumn
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[payment_sequential]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -4966,14 +5365,6 @@
                       externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_sequential]"
                       lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_sequential]" />
                     <inputColumn
-                      refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[payment_type]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="payment_type"
-                      externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_type]"
-                      lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_type]" />
-                    <inputColumn
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[payment_value]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -4981,6 +5372,22 @@
                       cachedName="payment_value"
                       externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_value]"
                       lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_value]" />
+                    <inputColumn
+                      refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[Copy of payment_type]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="Copy of payment_type"
+                      externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_type]"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of payment_type]" />
+                    <inputColumn
+                      refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].Columns[Copy of order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of order_id"
+                      externalMetadataColumnId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                      lineageId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4988,7 +5395,7 @@
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="order_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_sequential]"
@@ -4998,7 +5405,7 @@
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_type]"
                       codePage="1252"
                       dataType="str"
-                      length="100"
+                      length="20"
                       name="payment_type" />
                     <externalMetadataColumn
                       refId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input].ExternalColumns[payment_value]"
@@ -5132,28 +5539,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_installments]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[payment_installments]"
-                      length="50"
-                      lineageId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_installments]"
-                      name="payment_installments"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\DIM_Payment\Flat File Source.Outputs[Flat File Source Output].Columns[payment_value]"
                       codePage="1252"
                       dataType="str"
@@ -5243,9 +5628,14 @@
           <paths>
             <path
               refId="Package\DIM_Payment.Paths[Check_not_null]"
-              endId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input]"
+              endId="Package\DIM_Payment\Data Conversion.Inputs[Data Conversion Input]"
               name="Check_not_null"
               startId="Package\DIM_Payment\Conditional Split.Outputs[Check_not_null]" />
+            <path
+              refId="Package\DIM_Payment.Paths[Data Conversion Output]"
+              endId="Package\DIM_Payment\DIM_Payment.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_Payment\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\DIM_Payment.Paths[Flat File Source Output]"
               endId="Package\DIM_Payment\Conditional Split.Inputs[Conditional Split Input]"
@@ -5259,7 +5649,6 @@
       DTS:refId="Package\DIM_Product"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{CD72749C-4151-45AA-8F56-BB1CD4125FD7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5270,6 +5659,114 @@
         <pipeline
           version="1">
           <components>
+            <component
+              refId="Package\DIM_Product\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input].Columns[product_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="product_id"
+                      lineageId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]" />
+                    <inputColumn
+                      refId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input].Columns[product_category_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="product_category_name"
+                      lineageId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_category_name]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]"
+                      name="Copy of product_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_category_name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_category_name]"
+                      name="Copy of product_category_name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_category_name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
             <component
               refId="Package\DIM_Product\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
@@ -5492,8 +5989,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Product\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5506,21 +6003,21 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_id]"
+                      refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of product_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="product_id"
+                      cachedLength="32"
+                      cachedName="Copy of product_id"
                       externalMetadataColumnId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
-                      lineageId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]" />
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]" />
                     <inputColumn
-                      refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_category_name]"
+                      refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of product_category_name]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="product_category_name"
+                      cachedLength="100"
+                      cachedName="Copy of product_category_name"
                       externalMetadataColumnId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_category_name]"
-                      lineageId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_category_name]" />
+                      lineageId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_category_name]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -5528,13 +6025,13 @@
                       refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="product_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_category_name]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="100"
                       name="product_category_name" />
                   </externalMetadataColumns>
                 </input>
@@ -5567,8 +6064,13 @@
           </components>
           <paths>
             <path
-              refId="Package\DIM_Product.Paths[Flat File Source Output]"
+              refId="Package\DIM_Product.Paths[Data Conversion Output]"
               endId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\DIM_Product.Paths[Flat File Source Output]"
+              endId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]"
               name="Flat File Source Output"
               startId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
@@ -5579,7 +6081,6 @@
       DTS:refId="Package\DIM_Review"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{1D84403F-B623-430C-B32C-B412AED5915B}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5724,7 +6225,7 @@
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="32"
                       lineageId="Package\DIM_Review\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]"
                       name="Copy of order_id"
                       truncationRowDisposition="FailComponent">
@@ -5997,8 +6498,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Review\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6011,14 +6512,6 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[order_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="order_id"
-                      externalMetadataColumnId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\DIM_Review\Flat File Source.Outputs[Flat File Source Output].Columns[order_id]" />
-                    <inputColumn
                       refId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[review_score]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -6026,6 +6519,14 @@
                       cachedName="review_score"
                       externalMetadataColumnId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[review_score]"
                       lineageId="Package\DIM_Review\Flat File Source.Outputs[Flat File Source Output].Columns[review_score]" />
+                    <inputColumn
+                      refId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of order_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of order_id"
+                      externalMetadataColumnId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                      lineageId="Package\DIM_Review\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -6037,7 +6538,7 @@
                       refId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="order_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Review\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[review_score]"
@@ -6096,7 +6597,6 @@
       DTS:refId="Package\DIM_Seller"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{0E6DBEB4-1154-4CF5-B101-ADDC89716BE7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6191,6 +6691,85 @@
                       refId="Package\DIM_Seller\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\DIM_Seller\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DIM_Seller\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Seller\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Seller\Data Conversion.Inputs[Data Conversion Input].Columns[seller_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="seller_id"
+                      lineageId="Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_Seller\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="32"
+                      lineageId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]"
+                      name="Copy of seller_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_Seller\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -6403,7 +6982,7 @@
                       refId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Left Input].Columns[city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="city"
                       cachedSortKeyPosition="2"
                       lineageId="Package\DIM_Seller\Sort 1.Outputs[Sort Output].Columns[city]" />
@@ -6416,13 +6995,13 @@
                   name="Merge Join Right Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input].Columns[seller_id]"
+                      refId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input].Columns[copy seller_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="seller_id"
+                      cachedLength="32"
+                      cachedName="copy seller_id"
                       cachedSortKeyPosition="3"
-                      lineageId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[seller_id]" />
+                      lineageId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[copy seller_id]" />
                     <inputColumn
                       refId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input].Columns[city]"
                       cachedCodepage="1252"
@@ -6452,7 +7031,7 @@
                       refId="Package\DIM_Seller\Merge Join.Outputs[Merge Join Output].Columns[seller_id]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="32"
                       lineageId="Package\DIM_Seller\Merge Join.Outputs[Merge Join Output].Columns[seller_id]"
                       name="seller_id">
                       <properties>
@@ -6460,7 +7039,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input].Columns[seller_id]}</property>
+                          name="InputColumnID">#{Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input].Columns[copy seller_id]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -6540,8 +7119,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Seller\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6557,7 +7136,7 @@
                       refId="Package\DIM_Seller\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[seller_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="32"
                       cachedName="seller_id"
                       externalMetadataColumnId="Package\DIM_Seller\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[seller_id]"
                       lineageId="Package\DIM_Seller\Merge Join.Outputs[Merge Join Output].Columns[seller_id]" />
@@ -6574,7 +7153,7 @@
                       refId="Package\DIM_Seller\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[seller_id]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="32"
                       name="seller_id" />
                     <externalMetadataColumn
                       refId="Package\DIM_Seller\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[location_id]"
@@ -6659,8 +7238,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Seller\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6696,7 +7275,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]"
                       name="city"
                       truncationRowDisposition="FailComponent" />
@@ -6717,7 +7296,7 @@
                       refId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       name="city" />
                   </externalMetadataColumns>
                 </output>
@@ -6742,7 +7321,7 @@
                       refId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
                       name="city" />
                     <outputColumn
@@ -6786,24 +7365,6 @@
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\DIM_Seller\Sort.Inputs[Sort Input].Columns[seller_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="seller_id"
-                      lineageId="Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">3</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\DIM_Seller\Sort.Inputs[Sort Input].Columns[seller_city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -6839,6 +7400,42 @@
                           name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\DIM_Seller\Sort.Inputs[Sort Input].Columns[Copy of seller_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="Copy of seller_id"
+                      lineageId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">3</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DIM_Seller\Sort.Inputs[Sort Input].Columns[seller_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="seller_id"
+                      lineageId="Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -6849,22 +7446,6 @@
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[seller_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[seller_id]"
-                      name="seller_id"
-                      sortKeyPosition="3">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]}</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[city]"
                       codePage="1252"
@@ -6895,6 +7476,37 @@
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_state]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[copy seller_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="32"
+                      lineageId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[copy seller_id]"
+                      name="copy seller_id"
+                      sortKeyPosition="3">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of seller_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[seller_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DIM_Seller\Sort.Outputs[Sort Output].Columns[seller_id]"
+                      name="seller_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DIM_Seller\Flat File Source.Outputs[Flat File Source Output].Columns[seller_id]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -6963,7 +7575,7 @@
                       refId="Package\DIM_Seller\Sort 1.Inputs[Sort Input].Columns[city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="city"
                       lineageId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]">
                       <properties>
@@ -7021,7 +7633,7 @@
                       refId="Package\DIM_Seller\Sort 1.Outputs[Sort Output].Columns[city]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
+                      length="50"
                       lineageId="Package\DIM_Seller\Sort 1.Outputs[Sort Output].Columns[city]"
                       name="city"
                       sortKeyPosition="2">
@@ -7042,9 +7654,14 @@
           <paths>
             <path
               refId="Package\DIM_Seller.Paths[check_not_null]"
-              endId="Package\DIM_Seller\Sort.Inputs[Sort Input]"
+              endId="Package\DIM_Seller\Data Conversion.Inputs[Data Conversion Input]"
               name="check_not_null"
               startId="Package\DIM_Seller\Conditional Split.Outputs[check_not_null]" />
+            <path
+              refId="Package\DIM_Seller.Paths[Data Conversion Output]"
+              endId="Package\DIM_Seller\Sort.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_Seller\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\DIM_Seller.Paths[Flat File Source Output]"
               endId="Package\DIM_Seller\Conditional Split.Inputs[Conditional Split Input]"
@@ -7062,14 +7679,14 @@
               startId="Package\DIM_Seller\OLE DB Source.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\DIM_Seller.Paths[Sort Output]"
-              endId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\DIM_Seller\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\DIM_Seller.Paths[Sort Output1]"
               endId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\DIM_Seller\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\DIM_Seller.Paths[Sort Output1]"
+              endId="Package\DIM_Seller\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\DIM_Seller\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -7078,7 +7695,6 @@
       DTS:refId="Package\DIM_Time"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{8ACA0D97-095E-40C7-892F-8C96DE2A3B65}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7846,8 +8462,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Time\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist.olap]"
-                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist.olap]"
+                  connectionManagerID="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
+                  connectionManagerRefId="Package.ConnectionManagers[NHAN.Olist_DW.olap]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8076,7 +8692,6 @@
       DTS:refId="Package\set empty category product null"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{1A8CF767-BA92-4ED9-B3AF-4A0B85D22610}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8210,13 +8825,13 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\Add missing category"
-          TopLeft="44.5428572325682,258.282352923749" />
-        <NodeLayout
           Size="170.4,41.6"
           Id="Package\Add &quot;null&quot; Category"
           TopLeft="280.10204141259,261.917646882536" />
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Add missing category"
+          TopLeft="44.5428572325682,258.282352923749" />
         <NodeLayout
           Size="212,41.6"
           Id="Package\delelte DIM_Category_name"
@@ -8225,6 +8840,10 @@
           Size="221.6,41.6"
           Id="Package\delete customer,seller,location"
           TopLeft="434.767574621651,122.664565723193" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DELETE DIM_Order"
+          TopLeft="518.367348042244,204.28571410665" />
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\delete DIM_OrderItem"
@@ -8246,10 +8865,6 @@
           Id="Package\Delete DIM_Time"
           TopLeft="483.673470417369,280.756302274915" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DELETE DIM_Order"
-          TopLeft="518.367348042244,204.28571410665" />
-        <NodeLayout
           Size="177.6,41.6"
           Id="Package\DIM_Category_name"
           TopLeft="281.734694477291,191.576470443452" />
@@ -8258,13 +8873,17 @@
           Id="Package\DIM_Customer"
           TopLeft="901.417235478972,30.3839869058538" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\DIM_OrderItem"
-          TopLeft="278.571429164434,474.611344126182" />
-        <NodeLayout
           Size="143.2,41.6"
           Id="Package\DIM_Location"
           TopLeft="684.24036426836,126.093604002166" />
+        <NodeLayout
+          Size="130.4,41.6"
+          Id="Package\DIM_Order"
+          TopLeft="746.938777100241,207.563025028147" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\DIM_OrderItem"
+          TopLeft="278.571429164434,474.611344126182" />
         <NodeLayout
           Size="144.8,41.6"
           Id="Package\DIM_Payment"
@@ -8285,10 +8904,6 @@
           Size="127.2,41.6"
           Id="Package\DIM_Time"
           TopLeft="725.510205626053,279.663865301082" />
-        <NodeLayout
-          Size="130.4,41.6"
-          Id="Package\DIM_Order"
-          TopLeft="746.938777100241,207.563025028147" />
         <NodeLayout
           Size="228,41.6"
           Id="Package\set empty category product null"
@@ -8634,9 +9249,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8658,9 +9271,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8715,11 +9326,11 @@
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_Customer\Sort"
-          TopLeft="617.999990791082,121.999998182058" />
+          TopLeft="723.999989211559,119.99999821186" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Customer\Flat File Source"
-          TopLeft="106.999998405576,121.999998182058" />
+          TopLeft="55.9999991655352,124.999998137355" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Customer\OLE DB Destination"
@@ -8729,85 +9340,9 @@
           Id="Package\DIM_Customer\Sort 1"
           TopLeft="368.999994501472,260.999996110797" />
         <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\DIM_Customer\Merge Join"
-          TopLeft="721.999989241362,207.999996900559" />
-        <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Customer\Conditional Split"
-          TopLeft="355.999994695187,123.999998152256" />
-        <EdgeLayout
-          Id="Package\DIM_Customer.Paths[Sort Output1]"
-          TopLeft="666.799990791082,163.599998182058">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="119.999998450279,44.399998718501"
-              Start="0,0"
-              End="119.999998450279,36.899998718501">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.1999993592505" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.1999993592505"
-                    Point2="0,22.1999993592505"
-                    Point3="4,22.1999993592505" />
-                  <mssgle:LineSegment
-                    End="115.999998450279,22.1999993592505" />
-                  <mssgle:CubicBezierSegment
-                    Point1="115.999998450279,22.1999993592505"
-                    Point2="119.999998450279,22.1999993592505"
-                    Point3="119.999998450279,26.1999993592505" />
-                  <mssgle:LineSegment
-                    End="119.999998450279,36.899998718501" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Customer.Paths[Sort Output]"
-          TopLeft="475.399994501472,281.799996110797">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="246.59999473989,-52.999999210238"
-              Start="0,0"
-              End="239.09999473989,-52.999999210238">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="119.299997369945,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="119.299997369945,0"
-                    Point2="123.299997369945,0"
-                    Point3="123.299997369945,-4" />
-                  <mssgle:LineSegment
-                    End="123.299997369945,-48.999999210238" />
-                  <mssgle:CubicBezierSegment
-                    Point1="123.299997369945,-48.999999210238"
-                    Point2="123.299997369945,-52.999999210238"
-                    Point3="127.299997369945,-52.999999210238" />
-                  <mssgle:LineSegment
-                    End="239.09999473989,-52.999999210238" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="249.99999627471,125.999998122454" />
         <EdgeLayout
           Id="Package\DIM_Customer.Paths[OLE DB Source Output]"
           TopLeft="258.599998375773,283.799996080995">
@@ -8827,81 +9362,173 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Customer.Paths[Merge Join Output]"
-          TopLeft="851.599989241362,227.79999691546">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="55.3999972432855,0"
-              Start="0,0"
-              End="47.8999972432855,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="47.8999972432855,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Customer.Paths[Flat File Source Output]"
-          TopLeft="257.399998405576,143.799998167157">
+          TopLeft="206.399999165535,146.299998129904">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="98.599996289611,0"
+              EndConnector="43.5999971091749,0"
               Start="0,0"
-              End="91.099996289611,0">
+              End="36.0999971091749,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="91.099996289611,0" />
+                    End="36.0999971091749,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Customer\Data Conversion"
+          TopLeft="497.999993175268,119.999998211861" />
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[check_not_null]"
+          TopLeft="404.39999627471,143.799998167157">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="93.5999969005578,0"
+              Start="0,0"
+              End="86.0999969005578,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="86.0999969005578,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="9.5132601690289,5,67.0734765625,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DIM_Customer.Paths[check_not_null]"
-          TopLeft="510.399994695187,143.799998167157">
+          Id="Package\DIM_Customer.Paths[Data Conversion Output]"
+          TopLeft="653.199993175268,140.79999821186">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="107.599996095895,0"
+              EndConnector="70.7999960362908,0"
               Start="0,0"
-              End="100.099996095895,0">
+              End="63.2999960362908,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="100.099996095895,0" />
+                    End="63.2999960362908,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="16.5132597666975,5,67.0734765625,11.0625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\DIM_Customer\Merge Join"
+          TopLeft="657.599990820885,265.999996036291" />
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[Sort Output]"
+          TopLeft="475.399994501472,284.299996073544">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="182.199996319413,0"
+              Start="0,0"
+              End="174.699996319413,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="174.699996319413,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[Sort Output1]"
+          TopLeft="772.799989211559,161.59999821186">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-50.3999983906741,104.399997824431"
+              Start="0,0"
+              End="-50.3999983906741,96.8999978244308">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.1999989122154" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.1999989122154"
+                    Point2="0,52.1999989122154"
+                    Point3="-4,52.1999989122154" />
+                  <mssgle:LineSegment
+                    End="-46.3999983906741,52.1999989122154" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-46.3999983906741,52.1999989122154"
+                    Point2="-50.3999983906741,52.1999989122154"
+                    Point3="-50.3999983906741,56.1999989122154" />
+                  <mssgle:LineSegment
+                    End="-50.3999983906741,96.8999978244308" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[Merge Join Output]"
+          TopLeft="787.199990820885,286.799996036291">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="119.799995663762,-59.9999991059302"
+              Start="0,0"
+              End="112.299995663762,-59.9999991059302">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="55.8999978318811,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="55.8999978318811,0"
+                    Point2="59.8999978318811,0"
+                    Point3="59.8999978318811,-4" />
+                  <mssgle:LineSegment
+                    End="59.8999978318811,-55.9999991059302" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59.8999978318811,-55.9999991059302"
+                    Point2="59.8999978318811,-59.9999991059302"
+                    Point3="63.8999978318811,-59.9999991059302" />
+                  <mssgle:LineSegment
+                    End="112.299995663762,-59.9999991059302" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8922,85 +9549,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\DIM_Customer\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\DIM_OrderItem">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\DIM_OrderItem\Flat File Source"
-          TopLeft="91.4285716231988,67.2941175880729" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DIM_OrderItem\OLE DB Destination"
-          TopLeft="665.999995610543,71.9411764496028" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\DIM_OrderItem\Conditional Split"
-          TopLeft="308.999998205475,71.4705891543713" />
-        <EdgeLayout
-          Id="Package\DIM_OrderItem.Paths[Flat File Source Output]"
-          TopLeft="241.828571623199,90.1823533712221">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="67.1714265822761,0"
-              Start="0,0"
-              End="59.6714265822761,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="59.6714265822761,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_OrderItem.Paths[Check_not_null]"
-          TopLeft="463.399998205475,92.5058828019871">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="202.599997405068,0"
-              Start="0,0"
-              End="195.099997405068,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="195.099997405068,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="63.3303502650341,5,68.439296875,11.0625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\DIM_OrderItem\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9084,9 +9632,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9120,9 +9666,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9144,9 +9688,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9168,9 +9710,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9192,9 +9732,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9216,9 +9754,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9286,6 +9822,216 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\DIM_Order">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DIM_Order\OLE DB Destination"
+          TopLeft="840.999987468124,126.999998107553" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\DIM_Order\Flat File Source"
+          TopLeft="42.9999993592501,116.999998256564" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\DIM_Order\Conditional Split"
+          TopLeft="261.999996095896,121.999998182058" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Order\Data Conversion"
+          TopLeft="590.999991193414,125.999998122454" />
+        <EdgeLayout
+          Id="Package\DIM_Order.Paths[Flat File Source Output]"
+          TopLeft="193.39999935925,140.299998219311">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68.5999967366458,0"
+              Start="0,0"
+              End="61.0999967366458,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="61.0999967366458,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Order.Paths[Data Conversion Output]"
+          TopLeft="746.199991193414,147.299998115003">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="94.7999962747097,0"
+              Start="0,0"
+              End="87.2999962747097,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="87.2999962747097,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Order.Paths[Check order_id not null]"
+          TopLeft="416.399996095896,144.799998152256">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="174.599995097518,0"
+              Start="0,0"
+              End="167.099995097518,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="167.099995097518,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="31.745349111259,5,103.609296875,11.0625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DIM_Order\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DIM_OrderItem">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\DIM_OrderItem\Flat File Source"
+          TopLeft="50.4285722341464,162.294116172463" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DIM_OrderItem\OLE DB Destination"
+          TopLeft="747.999994388648,163.941175078696" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\DIM_OrderItem\Conditional Split"
+          TopLeft="242.999999188952,163.470587783464" />
+        <EdgeLayout
+          Id="Package\DIM_OrderItem.Paths[Flat File Source Output]"
+          TopLeft="200.828572234146,183.682351977964">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="42.1714269548052,0"
+              Start="0,0"
+              End="34.6714269548052,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="34.6714269548052,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_OrderItem\Data Conversion"
+          TopLeft="533.99999204278,164.999997541308" />
+        <EdgeLayout
+          Id="Package\DIM_OrderItem.Paths[Check_not_null]"
+          TopLeft="397.399999188952,185.035292662386">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="136.599992853828,0"
+              Start="0,0"
+              End="129.099992853828,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="129.099992853828,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="30.3303479894142,5,68.439296875,11.0625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_OrderItem.Paths[Data Conversion Output]"
+          TopLeft="689.19999204278,185.270586310002">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="58.8000023458679,0"
+              Start="0,0"
+              End="51.3000023458679,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="51.3000023458679,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DIM_OrderItem\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\DIM_Payment">
     <LayoutInfo>
       <GraphLayout
@@ -9297,57 +10043,81 @@
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Payment\Conditional Split"
-          TopLeft="328.571429270871,115.47058813408" />
+          TopLeft="211.428571878647,117.764705779128" />
         <NodeLayout
           Size="144.8,41.6"
           Id="Package\DIM_Payment\DIM_Payment"
-          TopLeft="593.571429834986,110.882352843984" />
+          TopLeft="708.750001508742,112.794117548191" />
         <EdgeLayout
-          Id="Package\DIM_Payment.Paths[Check_not_null]"
-          TopLeft="482.971429270871,133.976470489032">
+          Id="Package\DIM_Payment.Paths[Flat File Source Output]"
+          TopLeft="166.828571463544,138.182352838286">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="110.600000564116,0"
+              EndConnector="44.6000004151039,0"
               Start="0,0"
-              End="103.100000564116,0">
+              End="37.1000004151039,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="103.100000564116,0" />
+                    End="37.1000004151039,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Payment\Data Conversion"
+          TopLeft="475.535715298005,114.514705781976" />
+        <EdgeLayout
+          Id="Package\DIM_Payment.Paths[Check_not_null]"
+          TopLeft="365.828571878647,136.939705780552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="109.707143419357,0"
+              Start="0,0"
+              End="102.207143419357,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="102.207143419357,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="17.330351844558,5,68.439296875,11.0625"
+              BoundingBox="16.8839232721787,5,68.439296875,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DIM_Payment.Paths[Flat File Source Output]"
-          TopLeft="166.828571463544,137.035294015762">
+          Id="Package\DIM_Payment.Paths[Data Conversion Output]"
+          TopLeft="630.735715298005,134.454411665083">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="161.742857807327,0"
+              EndConnector="78.0142862107375,0"
               Start="0,0"
-              End="154.242857807327,0">
+              End="70.5142862107375,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="154.242857807327,0" />
+                    End="70.5142862107375,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -9370,37 +10140,61 @@
     design-time-name="Package\DIM_Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Product\OLE DB Destination"
-          TopLeft="421.428561511697,105.529410213644" />
+          TopLeft="600.428558844389,104.529410228545" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Product\Flat File Source"
           TopLeft="91.7142835083053,107.823527858692" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Product\Data Conversion"
+          TopLeft="308.999995395541,105.999998420477" />
         <EdgeLayout
           Id="Package\DIM_Product.Paths[Flat File Source Output]"
-          TopLeft="242.114283508305,127.476469036168">
+          TopLeft="242.114283508305,127.711763139584">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="179.314278003392,0"
+              EndConnector="66.885711887236,0"
               Start="0,0"
-              End="171.814278003392,0">
+              End="59.385711887236,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="171.814278003392,0" />
+                    End="59.385711887236,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Product.Paths[Data Conversion Output]"
+          TopLeft="464.199995395541,126.064704324511">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="136.228563448848,0"
+              Start="0,0"
+              End="128.728563448848,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="128.728563448848,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -9459,9 +10253,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9483,9 +10275,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9536,216 +10326,232 @@
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Seller\Flat File Source"
-          TopLeft="112.857143097386,76.4705881682647" />
+          TopLeft="78.8571436040255,188.470586499335" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Seller\Conditional Split"
-          TopLeft="109.285714518355,10.7058823435571" />
+          TopLeft="81.2857149355875,68.7058814792897" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_Seller\Sort"
-          TopLeft="346.428572166027,29.0588235039406" />
+          TopLeft="612.428568202318,94.0588225353651" />
         <NodeLayout
           Size="149.6,41.6"
           Id="Package\DIM_Seller\OLE DB Source"
-          TopLeft="110.000000234161,184.294117485518" />
+          TopLeft="85.0000006066901,263.294116308326" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Seller\OLE DB Destination"
-          TopLeft="649.285715667873,119.294117542493" />
+          TopLeft="753.285714118152,206.294116246092" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\DIM_Seller\Merge Join"
-          TopLeft="482.857143885019,117.764705779128" />
+          TopLeft="536.857143080356,207.764704438024" />
         <NodeLayout
           Size="106.4,41.6"
           Id="Package\DIM_Seller\Sort 1"
-          TopLeft="310.714286375715,191.941176302344" />
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Sort Output1]"
-          TopLeft="363.914286375715,191.941176302344">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="183.742857509304,-32.5764705232167"
-              Start="0,0"
-              End="183.742857509304,-25.0764705232167">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-12.2882352616084" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-12.2882352616084"
-                    Point2="0,-16.2882352616084"
-                    Point3="4,-16.2882352616084" />
-                  <mssgle:LineSegment
-                    End="179.742857509304,-16.2882352616084" />
-                  <mssgle:CubicBezierSegment
-                    Point1="179.742857509304,-16.2882352616084"
-                    Point2="183.742857509304,-16.2882352616084"
-                    Point3="183.742857509304,-20.2882352616084" />
-                  <mssgle:LineSegment
-                    End="183.742857509304,-25.0764705232167" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="314.71428631611,255.94117534867" />
         <EdgeLayout
           Id="Package\DIM_Seller.Paths[Sort Output]"
-          TopLeft="395.228572166027,70.6588235039406">
+          TopLeft="421.11428631611,276.74117534867">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="152.428571718992,47.105882275187"
+              EndConnector="115.742856764246,-48.1764709106461"
               Start="0,0"
-              End="152.428571718992,39.605882275187">
+              End="108.242856764246,-48.1764709106461">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.5529411375935" />
+                    End="53.8714283821229,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.5529411375935"
-                    Point2="0,23.5529411375935"
-                    Point3="4,23.5529411375935" />
+                    Point1="53.8714283821229,0"
+                    Point2="57.8714283821229,0"
+                    Point3="57.8714283821229,-4" />
                   <mssgle:LineSegment
-                    End="148.428571718992,23.5529411375935" />
+                    End="57.8714283821229,-44.1764709106461" />
                   <mssgle:CubicBezierSegment
-                    Point1="148.428571718992,23.5529411375935"
-                    Point2="152.428571718992,23.5529411375935"
-                    Point3="152.428571718992,27.5529411375935" />
+                    Point1="57.8714283821229,-44.1764709106461"
+                    Point2="57.8714283821229,-48.1764709106461"
+                    Point3="61.8714283821229,-48.1764709106461" />
                   <mssgle:LineSegment
-                    End="152.428571718992,39.605882275187" />
+                    End="108.242856764246,-48.1764709106461" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Seller.Paths[OLE DB Source Output]"
-          TopLeft="259.600000234161,208.917646893931">
+          TopLeft="234.60000060669,280.417645828498">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="51.1142861415539,0"
+              EndConnector="80.1142857094204,0"
               Start="0,0"
-              End="43.6142861415539,0">
+              End="72.6142857094204,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="43.6142861415539,0" />
+                    End="72.6142857094204,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Merge Join Output]"
-          TopLeft="612.457143885019,139.32941166081">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="36.8285717828545,0"
-              Start="0,0"
-              End="29.3285717828545,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="29.3285717828545,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Seller.Paths[Flat File Source Output]"
-          TopLeft="187.271428807871,76.4705881682647">
+          TopLeft="156.271429269807,188.470586499335">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-24.1647058247076"
+              EndConnector="0,-78.1647050200449"
               Start="0,0"
-              End="0,-16.6647058247076">
+              End="0,-70.6647050200449">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-16.6647058247076" />
+                    End="0,-70.6647050200449" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Seller\Data Conversion"
+          TopLeft="340.999994918704,67.9999989867211" />
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[check_not_null]"
+          TopLeft="235.685714935588,89.1529402330054">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="105.314279983117,0"
+              Start="0,0"
+              End="97.8142799831166,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="97.8142799831166,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="15.3704017103083,5,67.0734765625,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DIM_Seller.Paths[check_not_null]"
-          TopLeft="263.685714518355,31.5058823435571">
+          Id="Package\DIM_Seller.Paths[Data Conversion Output]"
+          TopLeft="496.199994918704,88.7999989867211">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="82.7428576476719,18.3529411603835"
+              EndConnector="116.228573283614,26.058823548644"
               Start="0,0"
-              End="75.2428576476719,18.3529411603835">
+              End="108.728573283614,26.058823548644">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="37.371428823836,0" />
+                    End="54.1142866418071,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="37.371428823836,0"
-                    Point2="41.371428823836,0"
-                    Point3="41.371428823836,4" />
+                    Point1="54.1142866418071,0"
+                    Point2="58.1142866418071,0"
+                    Point3="58.1142866418071,4" />
                   <mssgle:LineSegment
-                    End="41.371428823836,14.3529411603835" />
+                    End="58.1142866418071,22.058823548644" />
                   <mssgle:CubicBezierSegment
-                    Point1="41.371428823836,14.3529411603835"
-                    Point2="41.371428823836,18.3529411603835"
-                    Point3="45.371428823836,18.3529411603835" />
+                    Point1="58.1142866418071,22.058823548644"
+                    Point2="58.1142866418071,26.058823548644"
+                    Point3="62.1142866418071,26.058823548644" />
                   <mssgle:LineSegment
-                    End="75.2428576476719,18.3529411603835" />
+                    End="108.728573283614,26.058823548644" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="7.834690542586,-17.0625,67.0734765625,11.0625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[Sort Output1]"
+          TopLeft="661.228568202318,135.658822535365">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-59.5714251219621,72.1058819026584"
+              Start="0,0"
+              End="-59.5714251219621,64.6058819026584">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.0529409513292" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.0529409513292"
+                    Point2="0,36.0529409513292"
+                    Point3="-4,36.0529409513292" />
+                  <mssgle:LineSegment
+                    End="-55.5714251219621,36.0529409513292" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-55.5714251219621,36.0529409513292"
+                    Point2="-59.5714251219621,36.0529409513292"
+                    Point3="-59.5714251219621,40.0529409513292" />
+                  <mssgle:LineSegment
+                    End="-59.5714251219621,64.6058819026584" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[Merge Join Output]"
+          TopLeft="666.457143080356,227.829410342058">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="86.8285710377961,0"
+              Start="0,0"
+              End="79.3285710377961,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="79.3285710377961,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\DIM_Seller\OLE DB Source">
+    design-time-name="Package\DIM_Seller\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9758,7 +10564,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DIM_Seller\OLE DB Destination">
+    design-time-name="Package\DIM_Seller\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9964,111 +10770,6 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\DIM_Time\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\DIM_Order">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DIM_Order\OLE DB Destination"
-          TopLeft="840.999987468124,126.999998107553" />
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\DIM_Order\Flat File Source"
-          TopLeft="42.9999993592501,116.999998256564" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\DIM_Order\Conditional Split"
-          TopLeft="261.999996095896,121.999998182058" />
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\DIM_Order\Data Conversion"
-          TopLeft="590.999991193414,125.999998122454" />
-        <EdgeLayout
-          Id="Package\DIM_Order.Paths[Flat File Source Output]"
-          TopLeft="193.39999935925,140.299998219311">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68.5999967366458,0"
-              Start="0,0"
-              End="61.0999967366458,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="61.0999967366458,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Order.Paths[Data Conversion Output]"
-          TopLeft="746.199991193414,147.299998115003">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="94.7999962747097,0"
-              Start="0,0"
-              End="87.2999962747097,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="87.2999962747097,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Order.Paths[Check order_id not null]"
-          TopLeft="416.399996095896,144.799998152256">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="174.599995097518,0"
-              Start="0,0"
-              End="167.099995097518,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="167.099995097518,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="31.745349111259,5,103.609296875,11.0625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\DIM_Order\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
