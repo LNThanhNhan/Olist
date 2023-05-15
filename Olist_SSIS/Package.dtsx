@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="116"
-  DTS:VersionGUID="{1F49B5E3-DDD3-4BF4-BA3A-C191893F1FA6}">
+  DTS:VersionBuild="132"
+  DTS:VersionGUID="{DD9387A3-11A2-4C8E-ABE7-99A25270D72C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="product_category_name"
-              DTS:DTSID="{348AF6C5-E70F-4B5B-B8CA-5001DB4AB4A0}"
+              DTS:DTSID="{BC992C1E-9B27-43CD-B1D6-60C4921FDC75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="product_category_name_english"
-              DTS:DTSID="{A0EB6D7D-C71A-40DE-94B1-45BB58A2CE0F}"
+              DTS:DTSID="{E953EC13-EE98-4A2D-8B25-F48316BD6699}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -114,98 +114,6 @@
               DTS:TextQualified="True"
               DTS:ObjectName="customer_state"
               DTS:DTSID="{E14CBFC1-28B8-4211-8976-E2F83A852EE6}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Fact csv Connection Manager]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{8F7594CA-A41D-4B56-AD57-9EAFA439E191}"
-      DTS:ObjectName="Fact csv Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x0022_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="D:\Course\OLAP\Dataset\olist_orders_dataset.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_id"
-              DTS:DTSID="{C460FE5B-6D53-41B0-864E-CEC5CA19E2E0}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="customer_id"
-              DTS:DTSID="{970EAF3B-C97D-4987-AF6F-6B51D96EE414}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_status"
-              DTS:DTSID="{04F438FF-749A-4E00-BA10-4F1207675F0A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_purchase_timestamp"
-              DTS:DTSID="{5FCE256E-EA95-4FE3-97BF-86533A356568}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_approved_at"
-              DTS:DTSID="{E2FCAD76-96A1-403C-B278-E050A4AE0BDE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_delivered_carrier_date"
-              DTS:DTSID="{188CE53E-2121-472C-9BBD-ECFE985B3830}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_delivered_customer_date"
-              DTS:DTSID="{8E30C246-FBBC-4EA8-BF80-DC62ECB044B2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="order_estimated_delivery_date"
-              DTS:DTSID="{7404C67C-C11F-46AB-8E52-D34BB8055EE8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -307,7 +215,99 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABA7YQP2xKcnXelbV00vz0FXEgZ3w8eK2va81DrHqEegAAAAAOgAAAAAIAACAAAADeUxchYpU+qhSO7/Emq360gmvR56W1o5sWXrl4OfrLWhAAAACNviu9X0djfOcWzEtZmTDlQAAAAGLLQ977ZYFO8MIFV5ZkfQZr7PMhnHaORy7wtaXEVPerpDABlrTiqUo9qYorOueonH2Kdelt780RBppZtn3tq5U</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZUnepMLdkeyl7sGC8JIlAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD9233b69NX1GmEx5LaRqcG8GYAcC8I5SEk5gtSR7BbIgAAAAAOgAAAAAIAACAAAADwhkb4MyZ2rveRaRcSZvkthFKrb22iAS9K1IwkUGbGDxAAAAAvBOGOHqWz9sboZNvAsWCPQAAAAKnh3xemjfhN6AJ3jk1yT1QEJqXygTxV5P69eDtv2T9msAyT6ZktLwM57icWCFyi8w2OPt4RA3LKX8y/9MvtFjY</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Order csv Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{8F7594CA-A41D-4B56-AD57-9EAFA439E191}"
+      DTS:ObjectName="Order csv Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="D:\Course\OLAP\Dataset\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_id"
+              DTS:DTSID="{9EDCEC89-802A-4CA6-8E06-77AB0AC0AD13}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="customer_id"
+              DTS:DTSID="{744FF1CA-54DC-46C5-8AAC-BAAD5A7E7860}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_status"
+              DTS:DTSID="{828C1E21-4F22-4FF9-B78F-23559D9A0CEB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_purchase_timestamp"
+              DTS:DTSID="{5797AFCA-4A05-4EAB-AC1C-055D68701528}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_approved_at"
+              DTS:DTSID="{C8DDBA23-6E78-4A4C-85C6-6372EF3C5C6A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_delivered_carrier_date"
+              DTS:DTSID="{72145069-57D1-4031-A143-8A4E671E04F9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_delivered_customer_date"
+              DTS:DTSID="{200DD96C-E78A-4957-A6B0-4F42C71FD25F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="order_estimated_delivery_date"
+              DTS:DTSID="{9792113F-0EDA-4714-B8CD-9026B6551A61}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -628,7 +628,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Add &quot;null&quot; Category"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -645,7 +645,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Add missing category"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -662,7 +662,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delelte DIM_Category_name"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -679,12 +679,12 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete customer,seller,location"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{25753452-D059-4DE0-AB9E-B231BDDF8337}"
-          SQLTask:SqlStatementSource="truncate table [dbo].[DIM_Location];delete from dim_customer; delete from dim_seller" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table [dbo].[DIM_Location];&#xA;delete from dim_customer; &#xA;delete from dim_seller" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -696,7 +696,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="DELETE DIM_Order"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -713,7 +713,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete DIM_OrderItem"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -730,7 +730,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Delete DIM_Payment"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -747,7 +747,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete dim_product"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -764,7 +764,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="delete DIM_Review"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="6">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -781,7 +781,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Delete DIM_Time"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="7">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2693,6 +2693,116 @@
               </outputs>
             </component>
             <component
+              refId="Package\DIM_Location\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[city]" />
+                    <inputColumn
+                      refId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input].Columns[state]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="state"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[state]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of city]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of city]"
+                      name="Copy of city"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[city]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of state]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="2"
+                      lineageId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of state]"
+                      name="Copy of state"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[state]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\DIM_Location\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -3217,6 +3327,14 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
+                      refId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of state]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="2"
+                      cachedName="Copy of state"
+                      externalMetadataColumnId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[state]"
+                      lineageId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of state]" />
+                    <inputColumn
                       refId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[city]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -3225,15 +3343,6 @@
                       cachedSortKeyPosition="2"
                       externalMetadataColumnId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
                       lineageId="Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[city]" />
-                    <inputColumn
-                      refId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[state]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="state"
-                      cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[state]"
-                      lineageId="Package\DIM_Location\Sort 2.Outputs[Sort Output].Columns[state]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3713,6 +3822,11 @@
               name="Check_not_null"
               startId="Package\DIM_Location\Check seller.Outputs[Check_not_null]" />
             <path
+              refId="Package\DIM_Location.Paths[Data Conversion Output]"
+              endId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\DIM_Location\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
               refId="Package\DIM_Location.Paths[Flat File Source Output]"
               endId="Package\DIM_Location\Check customer.Inputs[Conditional Split Input]"
               name="Flat File Source Output"
@@ -3729,19 +3843,19 @@
               startId="Package\DIM_Location\Merge.Outputs[Merge Output 1]" />
             <path
               refId="Package\DIM_Location.Paths[Sort Output]"
-              endId="Package\DIM_Location\OLE DB Destination.Inputs[OLE DB Destination Input]"
-              name="Sort Output"
-              startId="Package\DIM_Location\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\DIM_Location.Paths[Sort Output1]"
               endId="Package\DIM_Location\Merge.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\DIM_Location\Sort 1.Outputs[Sort Output]" />
             <path
-              refId="Package\DIM_Location.Paths[Sort Output2]"
+              refId="Package\DIM_Location.Paths[Sort Output1]"
               endId="Package\DIM_Location\Merge.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\DIM_Location\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\DIM_Location.Paths[Sort Output2]"
+              endId="Package\DIM_Location\Data Conversion.Inputs[Data Conversion Input]"
+              name="Sort Output"
+              startId="Package\DIM_Location\Sort 2.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4008,8 +4122,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Order\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Fact csv Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Fact csv Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Order csv Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Order csv Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -5660,6 +5774,97 @@
           version="1">
           <components>
             <component
+              refId="Package\DIM_Product\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input].Columns[product_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="product_id"
+                      lineageId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DIM_Product\Conditional Split.Outputs[check_not_null]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="check_not_null"
+                  synchronousInputId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">![ISNULL](#{Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output].Columns[product_id]})</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">!ISNULL(product_id)</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DIM_Product\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\DIM_Product\Data Conversion"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -6064,13 +6269,18 @@
           </components>
           <paths>
             <path
+              refId="Package\DIM_Product.Paths[check_not_null]"
+              endId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]"
+              name="check_not_null"
+              startId="Package\DIM_Product\Conditional Split.Outputs[check_not_null]" />
+            <path
               refId="Package\DIM_Product.Paths[Data Conversion Output]"
               endId="Package\DIM_Product\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Data Conversion Output"
               startId="Package\DIM_Product\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\DIM_Product.Paths[Flat File Source Output]"
-              endId="Package\DIM_Product\Data Conversion.Inputs[Data Conversion Input]"
+              endId="Package\DIM_Product\Conditional Split.Inputs[Conditional Split Input]"
               name="Flat File Source Output"
               startId="Package\DIM_Product\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
@@ -7892,31 +8102,6 @@
                       cachedLength="9"
                       cachedName="weekday name"
                       lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[weekday name]" />
-                    <inputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Inputs[Data Conversion Input].Columns[day]"
-                      cachedDataType="i4"
-                      cachedName="day"
-                      lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[day]" />
-                    <inputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Inputs[Data Conversion Input].Columns[month]"
-                      cachedDataType="i4"
-                      cachedName="month"
-                      lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[month]" />
-                    <inputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Inputs[Data Conversion Input].Columns[quarter]"
-                      cachedDataType="i4"
-                      cachedName="quarter"
-                      lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[quarter]" />
-                    <inputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Inputs[Data Conversion Input].Columns[year]"
-                      cachedDataType="i4"
-                      cachedName="year"
-                      lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[year]" />
-                    <inputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Inputs[Data Conversion Input].Columns[weekday]"
-                      cachedDataType="i4"
-                      cachedName="weekday"
-                      lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[weekday]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -7944,106 +8129,6 @@
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
                           name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[weekday name]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of day]"
-                      dataType="ui2"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of day]"
-                      name="Copy of day"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[day]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of month]"
-                      dataType="ui2"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of month]"
-                      name="Copy of month"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[month]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of quarter]"
-                      dataType="ui2"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of quarter]"
-                      name="Copy of quarter"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[quarter]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of year]"
-                      dataType="ui2"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of year]"
-                      name="Copy of year"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[year]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of weekday]"
-                      dataType="ui2"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\DIM_Time\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of weekday]"
-                      name="Copy of weekday"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[weekday]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -8290,8 +8375,8 @@
               <connections>
                 <connection
                   refId="Package\DIM_Time\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Fact csv Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Fact csv Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Order csv Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Order csv Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -8500,17 +8585,17 @@
                       externalMetadataColumnId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[year]"
                       lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[year]" />
                     <inputColumn
-                      refId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of order_purchase_timestamp]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="Copy of order_purchase_timestamp"
-                      externalMetadataColumnId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[timestamp]"
-                      lineageId="Package\DIM_Time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_purchase_timestamp]" />
-                    <inputColumn
                       refId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[weekday]"
                       cachedDataType="i4"
                       cachedName="weekday"
                       externalMetadataColumnId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[weeekday]"
                       lineageId="Package\DIM_Time\Derived Column.Outputs[Derived Column Output].Columns[weekday]" />
+                    <inputColumn
+                      refId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of order_purchase_timestamp]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of order_purchase_timestamp"
+                      externalMetadataColumnId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[timestamp]"
+                      lineageId="Package\DIM_Time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_purchase_timestamp]" />
                     <inputColumn
                       refId="Package\DIM_Time\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of weekday name]"
                       cachedCodepage="1252"
@@ -8697,7 +8782,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="set empty category product null"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -8782,7 +8867,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
-      DTS:DTSID="{2C2F1623-80CB-4124-A899-2F80F82969B8}"
+      DTS:DTSID="{D23A2936-FED5-463B-B3E5-8A7604AF4174}"
       DTS:From="Package\DIM_Location"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
@@ -8790,7 +8875,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
-      DTS:DTSID="{19F2932F-083A-4368-9421-AC9EA11872CA}"
+      DTS:DTSID="{03984EA9-B681-4557-BB52-54CB1B166167}"
       DTS:From="Package\DIM_Location"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
@@ -8847,7 +8932,7 @@
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\delete DIM_OrderItem"
-          TopLeft="46.301020506726,470.02100799137" />
+          TopLeft="39.9518141440039,477.668066808197" />
         <NodeLayout
           Size="177.6,41.6"
           Id="Package\Delete DIM_Payment"
@@ -8855,7 +8940,7 @@
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\delete dim_product"
-          TopLeft="38.0102041625464,318.718487115589" />
+          TopLeft="38.0102041625464,325.091036129611" />
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\delete DIM_Review"
@@ -8871,7 +8956,7 @@
         <NodeLayout
           Size="148.8,41.6"
           Id="Package\DIM_Customer"
-          TopLeft="901.417235478972,30.3839869058538" />
+          TopLeft="882.667235439058,34.2075163142671" />
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\DIM_Location"
@@ -8899,7 +8984,7 @@
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\DIM_Seller"
-          TopLeft="909.637190144995,125.60597565404" />
+          TopLeft="890.172904389275,129.811858003295" />
         <NodeLayout
           Size="127.2,41.6"
           Id="Package\DIM_Time"
@@ -9002,14 +9087,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-56.3591841800215,0"
+              EndConnector="-56.3591841800218,0"
               Start="0,0"
-              End="-48.8591841800215,0">
+              End="-48.8591841800218,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-48.8591841800215,0" />
+                    End="-48.8591841800218,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9024,14 +9109,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.6530617729662,0"
+              EndConnector="45.6530617729664,0"
               Start="0,0"
-              End="38.1530617729662,0">
+              End="38.1530617729664,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="38.1530617729662,0" />
+                    End="38.1530617729664,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9042,18 +9127,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="207.610204162546,342.386134171899">
+          TopLeft="207.610204162546,345.57240867891">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26.4459187846771,0"
+              EndConnector="26.4459187846766,0"
               Start="0,0"
-              End="18.9459187846771,0">
+              End="18.9459187846766,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="18.9459187846771,0" />
+                    End="18.9459187846766,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9064,18 +9149,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="231.101020506726,493.116176058776">
+          TopLeft="224.751814144004,496.939705467189">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="47.470408657708,0"
+              EndConnector="53.8196150204301,0"
               Start="0,0"
-              End="39.970408657708,0">
+              End="46.3196150204301,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="39.970408657708,0" />
+                    End="46.3196150204301,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9090,14 +9175,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="27.8727896467084,0"
+              EndConnector="27.8727896467091,0"
               Start="0,0"
-              End="20.3727896467084,0">
+              End="20.3727896467091,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="20.3727896467084,0" />
+                    End="20.3727896467091,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9108,52 +9193,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="778.373697601693,126.093604002166">
+          TopLeft="755.84036426836,126.093604002166">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="197.443537877279,-54.1096170963125"
+              EndConnector="201.226871170698,-50.286087687899"
               Start="0,0"
-              End="197.443537877279,-46.6096170963125">
+              End="201.226871170698,-42.786087687899">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-18.0025846314287" />
+                    End="0,-21.1430438439495" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-18.0025846314287"
-                    Point2="0,-22.0025846314287"
-                    Point3="4,-22.0025846314287" />
+                    Point1="0,-21.1430438439495"
+                    Point2="0,-25.1430438439495"
+                    Point3="4,-25.1430438439495" />
                   <mssgle:LineSegment
-                    End="193.443537877279,-22.0025846314287" />
+                    End="197.226871170698,-25.1430438439495" />
                   <mssgle:CubicBezierSegment
-                    Point1="193.443537877279,-22.0025846314287"
-                    Point2="197.443537877279,-22.0025846314287"
-                    Point3="197.443537877279,-26.0025846314287" />
+                    Point1="197.226871170698,-25.1430438439495"
+                    Point2="201.226871170698,-25.1430438439495"
+                    Point3="201.226871170698,-29.1430438439495" />
                   <mssgle:LineSegment
-                    End="197.443537877279,-46.6096170963125" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="827.44036426836,146.649789828103">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="82.1968258766356,0"
-              Start="0,0"
-              End="74.6968258766356,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="74.6968258766356,0" />
+                    End="201.226871170698,-42.786087687899" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9168,14 +9231,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,28.7411764390846"
+              EndConnector="0,28.741176439084"
               Start="0,0"
-              End="0,21.2411764390846">
+              End="0,21.241176439084">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.2411764390846" />
+                    End="0,21.241176439084" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9206,6 +9269,28 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="827.44036426836,148.752731002731">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="62.7325401209148,0"
+              Start="0,0"
+              End="55.2325401209148,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="55.2325401209148,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -9217,84 +9302,88 @@
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_Category_name\Sort"
-          TopLeft="464.99999307096,203.999996960163" />
+          TopLeft="549.999991804361,144.999997839331" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Category_name\OLE DB Destination"
-          TopLeft="663.999990105629,211.999996840954" />
+          TopLeft="725.999989181757,145.999997824431" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Category_name\Conditional Split"
-          TopLeft="222.999996677041,200.999997004867" />
+          TopLeft="282.999995782971,143.999997854233" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Category_name\Flat File Source"
-          TopLeft="219.999996721745,82.9999987632036" />
+          TopLeft="73.9999988973145,140.999997898936" />
         <EdgeLayout
           Id="Package\DIM_Category_name.Paths[Sort Output]"
-          TopLeft="562.59999307096,228.799996900558">
+          TopLeft="647.599991804361,166.299997831881">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="101.39999703467,0"
+              EndConnector="78.3999973773957,0"
               Start="0,0"
-              End="93.8999970346697,0">
+              End="70.8999973773957,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="93.8999970346697,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Category_name.Paths[Flat File Source Output]"
-          TopLeft="297.699996699393,124.599998763204">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,76.399998241663"
-              Start="0,0"
-              End="0,68.899998241663">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.899998241663" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Category_name.Paths[Check_not_null]"
-          TopLeft="377.399996677041,223.299996982515">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="87.5999963939185,0"
-              Start="0,0"
-              End="80.0999963939185,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="80.0999963939185,0" />
+                    End="70.8999973773957,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="5.83034975945925,5,68.439296875,11.0625"
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Category_name.Paths[Flat File Source Output]"
+          TopLeft="224.399998897315,163.299997876585">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="58.5999968856568,0"
+              Start="0,0"
+              End="51.0999968856568,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="51.0999968856568,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Category_name.Paths[Check_not_null]"
+          TopLeft="437.399995782971,165.299997846782">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="112.59999602139,0"
+              Start="0,0"
+              End="105.09999602139,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="105.09999602139,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="18.3303495731949,5,68.439296875,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -9320,51 +9409,37 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Customer\Data Conversion"
+          TopLeft="497.999993175268,119.999998211861" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\DIM_Customer\OLE DB Source"
           TopLeft="108.999998375773,264.999996051192" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\DIM_Customer\Sort"
-          TopLeft="723.999989211559,119.99999821186" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Customer\Flat File Source"
           TopLeft="55.9999991655352,124.999998137355" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DIM_Customer\OLE DB Destination"
-          TopLeft="906.999986484647,205.999996930361" />
-        <NodeLayout
           Size="106.4,41.6"
           Id="Package\DIM_Customer\Sort 1"
           TopLeft="368.999994501472,260.999996110797" />
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DIM_Customer\OLE DB Destination"
+          TopLeft="868.111098175248,263.777773847183" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\DIM_Customer\Sort"
+          TopLeft="723.999989211559,119.99999821186" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\DIM_Customer\Merge Join"
+          TopLeft="657.599990820885,265.999996036291" />
+        <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Customer\Conditional Split"
           TopLeft="249.99999627471,125.999998122454" />
-        <EdgeLayout
-          Id="Package\DIM_Customer.Paths[OLE DB Source Output]"
-          TopLeft="258.599998375773,283.799996080995">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="110.399996125698,0"
-              Start="0,0"
-              End="102.899996125698,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="102.899996125698,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Customer.Paths[Flat File Source Output]"
           TopLeft="206.399999165535,146.299998129904">
@@ -9385,34 +9460,6 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\DIM_Customer\Data Conversion"
-          TopLeft="497.999993175268,119.999998211861" />
-        <EdgeLayout
-          Id="Package\DIM_Customer.Paths[check_not_null]"
-          TopLeft="404.39999627471,143.799998167157">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="93.5999969005578,0"
-              Start="0,0"
-              End="86.0999969005578,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="86.0999969005578,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="9.5132601690289,5,67.0734765625,11.0625"
-              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9437,30 +9484,28 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\DIM_Customer\Merge Join"
-          TopLeft="657.599990820885,265.999996036291" />
         <EdgeLayout
-          Id="Package\DIM_Customer.Paths[Sort Output]"
-          TopLeft="475.399994501472,284.299996073544">
+          Id="Package\DIM_Customer.Paths[check_not_null]"
+          TopLeft="404.39999627471,143.799998167157">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="182.199996319413,0"
+              EndConnector="93.5999969005578,0"
               Start="0,0"
-              End="174.699996319413,0">
+              End="86.0999969005578,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="174.699996319413,0" />
+                    End="86.0999969005578,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="9.5132601690289,5,67.0734765625,11.0625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9498,31 +9543,63 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DIM_Customer.Paths[Merge Join Output]"
-          TopLeft="787.199990820885,286.799996036291">
+          Id="Package\DIM_Customer.Paths[Sort Output]"
+          TopLeft="475.399994501472,284.299996073544">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="119.799995663762,-59.9999991059302"
+              EndConnector="182.199996319413,0"
               Start="0,0"
-              End="112.299995663762,-59.9999991059302">
+              End="174.699996319413,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="55.8999978318811,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="55.8999978318811,0"
-                    Point2="59.8999978318811,0"
-                    Point3="59.8999978318811,-4" />
+                    End="174.699996319413,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[OLE DB Source Output]"
+          TopLeft="258.599998375773,283.799996080995">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="110.399996125698,0"
+              Start="0,0"
+              End="102.899996125698,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="59.8999978318811,-55.9999991059302" />
-                  <mssgle:CubicBezierSegment
-                    Point1="59.8999978318811,-55.9999991059302"
-                    Point2="59.8999978318811,-59.9999991059302"
-                    Point3="63.8999978318811,-59.9999991059302" />
+                    End="102.899996125698,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Customer.Paths[Merge Join Output]"
+          TopLeft="787.199990820885,285.688884941737">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.9111073543627,0"
+              Start="0,0"
+              End="73.4111073543627,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="112.299995663762,-59.9999991059302" />
+                    End="73.4111073543627,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9570,6 +9647,14 @@
           Id="Package\DIM_Location\Check seller"
           TopLeft="57.9999991357326,218.999997153878" />
         <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\DIM_Location\Sort 1"
+          TopLeft="295.999995589256,214.999997213483" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Location\Data Conversion"
+          TopLeft="780.408165607786,164.067226750952" />
+        <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Location\Flat File Source"
           TopLeft="44.9999993294477,28.9999999850988" />
@@ -9580,137 +9665,141 @@
         <NodeLayout
           Size="107.2,41.6"
           Id="Package\DIM_Location\Merge"
-          TopLeft="484.999992772937,162.59999807775" />
+          TopLeft="485.999992758036,162.59999807775" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Location\OLE DB Destination"
-          TopLeft="815.999987840652,159.999997615814" />
+          TopLeft="765.122436831148,258.478989813339" />
         <NodeLayout
           Size="106.4,41.6"
           Id="Package\DIM_Location\Sort 2"
           TopLeft="637.999990493059,161.999997586012" />
         <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\DIM_Location\Flat File Source 1"
-          TopLeft="47.9999992847443,298.999995961785" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\DIM_Location\Sort 1"
-          TopLeft="295.999995589256,214.999997213483" />
-        <NodeLayout
           Size="153.6,41.6"
           Id="Package\DIM_Location\Check customer"
           TopLeft="46.9999992996454,111.999998748302" />
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\DIM_Location\Flat File Source 1"
+          TopLeft="47.9999992847443,298.999995961785" />
         <EdgeLayout
           Id="Package\DIM_Location.Paths[Sort Output2]"
-          TopLeft="392.599995604157,131.799998763204">
+          TopLeft="744.399990493059,183.833612168482">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92.3999971687795,45.9999993145466"
+              EndConnector="36.0081751147275,0"
               Start="0,0"
-              End="84.8999971687795,45.9999993145466">
+              End="28.5081751147275,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="49.3866650308504,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="49.3866650308504,0"
-                    Point2="53.3866650308504,0"
-                    Point3="53.3866650308504,4" />
-                  <mssgle:LineSegment
-                    End="53.3866650308504,41.9999993145466" />
-                  <mssgle:CubicBezierSegment
-                    Point1="53.3866650308504,41.9999993145466"
-                    Point2="53.3866650308504,45.9999993145466"
-                    Point3="57.3866650308504,45.9999993145466" />
-                  <mssgle:LineSegment
-                    End="84.8999971687795,45.9999993145466" />
+                    End="28.5081751147275,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Location.Paths[Sort Output1]"
-          TopLeft="402.399995589256,235.799997213483">
+          TopLeft="392.599995604157,131.799998763204">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="82.5999971836804,-46.7999991357326"
+              EndConnector="93.3999971538788,45.999999314546"
               Start="0,0"
-              End="75.0999971836804,-46.7999991357326">
+              End="85.8999971538788,45.999999314546">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="43.7244428172376,0" />
+                    End="49.9644428000189,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="43.7244428172376,0"
-                    Point2="47.7244428172376,0"
-                    Point3="47.7244428172376,-4" />
+                    Point1="49.9644428000189,0"
+                    Point2="53.9644428000189,0"
+                    Point3="53.9644428000189,4" />
                   <mssgle:LineSegment
-                    End="47.7244428172376,-42.7999991357326" />
+                    End="53.9644428000189,41.999999314546" />
                   <mssgle:CubicBezierSegment
-                    Point1="47.7244428172376,-42.7999991357326"
-                    Point2="47.7244428172376,-46.7999991357326"
-                    Point3="51.7244428172376,-46.7999991357326" />
+                    Point1="53.9644428000189,41.999999314546"
+                    Point2="53.9644428000189,45.999999314546"
+                    Point3="57.9644428000189,45.999999314546" />
                   <mssgle:LineSegment
-                    End="75.0999971836804,-46.7999991357326" />
+                    End="85.8999971538788,45.999999314546" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Location.Paths[Sort Output]"
-          TopLeft="744.399990493059,181.799997600913">
+          TopLeft="402.399995589256,235.799997213483">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71.5999973475928,0"
+              EndConnector="83.5999971687797,-46.799999135733"
               Start="0,0"
-              End="64.0999973475928,0">
+              End="76.0999971687797,-46.799999135733">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="64.0999973475928,0" />
+                    End="44.3022205864061,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.3022205864061,0"
+                    Point2="48.3022205864061,0"
+                    Point3="48.3022205864061,-4" />
+                  <mssgle:LineSegment
+                    End="48.3022205864061,-42.799999135733" />
+                  <mssgle:CubicBezierSegment
+                    Point1="48.3022205864061,-42.799999135733"
+                    Point2="48.3022205864061,-46.799999135733"
+                    Point3="52.3022205864061,-46.799999135733" />
+                  <mssgle:LineSegment
+                    End="76.0999971687797,-46.799999135733" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Location.Paths[Merge Output 1]"
-          TopLeft="592.199992772937,183.099997831881">
+          TopLeft="593.199992758036,183.099997831881">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.7999977201224,0"
+              EndConnector="44.7999977350232,0"
               Start="0,0"
-              End="38.2999977201224,0">
+              End="37.2999977350232,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="38.2999977201224,0" />
+                    End="37.2999977350232,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9732,7 +9821,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9754,7 +9845,33 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Location.Paths[Data Conversion Output]"
+          TopLeft="854.165301219467,205.667226750952">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.8117630623869"
+              Start="0,0"
+              End="0,45.3117630623869">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.3117630623869" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9861,7 +9978,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9883,7 +10002,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9940,35 +10061,13 @@
           Id="Package\DIM_OrderItem\OLE DB Destination"
           TopLeft="747.999994388648,163.941175078696" />
         <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\DIM_OrderItem\Conditional Split"
-          TopLeft="242.999999188952,163.470587783464" />
-        <EdgeLayout
-          Id="Package\DIM_OrderItem.Paths[Flat File Source Output]"
-          TopLeft="200.828572234146,183.682351977964">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="42.1714269548052,0"
-              Start="0,0"
-              End="34.6714269548052,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="34.6714269548052,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
           Size="155.2,41.6"
           Id="Package\DIM_OrderItem\Data Conversion"
           TopLeft="533.99999204278,164.999997541308" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\DIM_OrderItem\Conditional Split"
+          TopLeft="242.999999188952,163.470587783464" />
         <EdgeLayout
           Id="Package\DIM_OrderItem.Paths[Check_not_null]"
           TopLeft="397.399999188952,185.035292662386">
@@ -9989,7 +10088,31 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="30.3303479894142,5,68.439296875,11.0625"
+              BoundingBox="30.330347989414,5,68.439296875,11.0625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_OrderItem.Paths[Flat File Source Output]"
+          TopLeft="200.828572234146,183.682351977964">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="42.1714269548052,0"
+              Start="0,0"
+              End="34.6714269548052,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="34.6714269548052,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -10012,7 +10135,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10041,13 +10166,17 @@
           Id="Package\DIM_Payment\Flat File Source"
           TopLeft="16.4285714635436,116.999999897445" />
         <NodeLayout
+          Size="144.8,41.6"
+          Id="Package\DIM_Payment\DIM_Payment"
+          TopLeft="708.750001508742,112.794117548191" />
+        <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Payment\Conditional Split"
           TopLeft="211.428571878647,117.764705779128" />
         <NodeLayout
-          Size="144.8,41.6"
-          Id="Package\DIM_Payment\DIM_Payment"
-          TopLeft="708.750001508742,112.794117548191" />
+          Size="155.2,41.6"
+          Id="Package\DIM_Payment\Data Conversion"
+          TopLeft="475.535715298005,114.514705781976" />
         <EdgeLayout
           Id="Package\DIM_Payment.Paths[Flat File Source Output]"
           TopLeft="166.828571463544,138.182352838286">
@@ -10067,34 +10196,8 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\DIM_Payment\Data Conversion"
-          TopLeft="475.535715298005,114.514705781976" />
-        <EdgeLayout
-          Id="Package\DIM_Payment.Paths[Check_not_null]"
-          TopLeft="365.828571878647,136.939705780552">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="109.707143419357,0"
-              Start="0,0"
-              End="102.207143419357,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="102.207143419357,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="16.8839232721787,5,68.439296875,11.0625"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -10117,7 +10220,33 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Payment.Paths[Check_not_null]"
+          TopLeft="365.828571878647,136.939705780552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="109.707143419357,0"
+              Start="0,0"
+              End="102.207143419357,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="102.207143419357,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="16.8839232721785,5,68.439296875,11.0625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10140,61 +10269,93 @@
     design-time-name="Package\DIM_Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Product\OLE DB Destination"
-          TopLeft="600.428558844389,104.529410228545" />
+          TopLeft="761.428556445302,165.529409319574" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Product\Flat File Source"
-          TopLeft="91.7142835083053,107.823527858692" />
+          TopLeft="34.7142843576714,168.823526949721" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\DIM_Product\Conditional Split"
+          TopLeft="249.99999627471,166.999997511506" />
         <NodeLayout
           Size="155.2,41.6"
           Id="Package\DIM_Product\Data Conversion"
-          TopLeft="308.999995395541,105.999998420477" />
+          TopLeft="541.99999192357,165.999997526407" />
         <EdgeLayout
           Id="Package\DIM_Product.Paths[Flat File Source Output]"
-          TopLeft="242.114283508305,127.711763139584">
+          TopLeft="185.114284357671,188.711762230614">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="66.885711887236,0"
+              EndConnector="64.8857119170383,0"
               Start="0,0"
-              End="59.385711887236,0">
+              End="57.3857119170383,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="59.385711887236,0" />
+                    End="57.3857119170383,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Product.Paths[Data Conversion Output]"
-          TopLeft="464.199995395541,126.064704324511">
+          TopLeft="697.19999192357,186.564703422991">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="136.228563448848,0"
+              EndConnector="64.2285645217318,0"
               Start="0,0"
-              End="128.728563448848,0">
+              End="56.7285645217318,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="128.728563448848,0" />
+                    End="56.7285645217318,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Product.Paths[check_not_null]"
+          TopLeft="404.39999627471,187.299997518957">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="137.599995648861,0"
+              Start="0,0"
+              End="130.099995648861,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="130.099995648861,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="31.5132595431803,5,67.0734765625,11.0625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10221,84 +10382,88 @@
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Review\Flat File Source"
-          TopLeft="140.999997898936,139.999997913837" />
+          TopLeft="29.9999995529649,178.999997332692" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Review\Conditional Split"
-          TopLeft="380.999994322658,133.999998003244" />
+          TopLeft="235.999996483326,181.999997287988" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Review\OLE DB Destination"
-          TopLeft="709.999989420176,244.999996349216" />
+          TopLeft="736.999989017845,179.999997317791" />
         <NodeLayout
           Size="155.2,41.6"
           Id="Package\DIM_Review\Data Conversion"
-          TopLeft="375.999994397163,241.999996393919" />
+          TopLeft="530.999992087483,182.999997273087" />
         <EdgeLayout
           Id="Package\DIM_Review.Paths[Flat File Source Output]"
-          TopLeft="291.399997898936,157.799997958541">
+          TopLeft="180.399999552965,201.29999731034">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="89.5999964237212,0"
+              EndConnector="55.5999969303614,0"
               Start="0,0"
-              End="82.0999964237212,0">
+              End="48.0999969303614,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="82.0999964237212,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Review.Paths[Data Conversion Output]"
-          TopLeft="531.199994397163,264.299996371567">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="178.799995023013,0"
-              Start="0,0"
-              End="171.299995023013,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="171.299995023013,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Review.Paths[Check_not_null]"
-          TopLeft="455.89999435991,175.599998003244">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66.3999983906746"
-              Start="0,0"
-              End="0,58.8999983906746">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.8999983906746" />
+                    End="48.0999969303614,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-34.2196484375,23.9187491953373,68.439296875,11.0625"
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Review.Paths[Data Conversion Output]"
+          TopLeft="686.199992087483,202.299997295439">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="50.7999969303615,0"
+              Start="0,0"
+              End="43.2999969303615,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="43.2999969303615,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Review.Paths[Check_not_null]"
+          TopLeft="390.399996483326,203.299997280538">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="140.599995604157,0"
+              Start="0,0"
+              End="133.099995604157,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="133.099995604157,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="32.3303493645783,5,68.439296875,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -10324,59 +10489,73 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\DIM_Seller\Sort 1"
+          TopLeft="309.357143447563,195.720587166161" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\DIM_Seller\Data Conversion"
+          TopLeft="324.928566313064,67.0441166346178" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DIM_Seller\OLE DB Destination"
+          TopLeft="657.749999629067,195.970586843376" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\DIM_Seller\Merge Join"
+          TopLeft="496.500000137304,195.720586801522" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\DIM_Seller\Sort"
+          TopLeft="516.178567997427,68.0588225581551" />
+        <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Seller\Flat File Source"
-          TopLeft="78.8571436040255,188.470586499335" />
+          TopLeft="83.3214293278144,134.94117478155" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Seller\Conditional Split"
           TopLeft="81.2857149355875,68.7058814792897" />
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\DIM_Seller\Sort"
-          TopLeft="612.428568202318,94.0588225353651" />
-        <NodeLayout
           Size="149.6,41.6"
           Id="Package\DIM_Seller\OLE DB Source"
-          TopLeft="85.0000006066901,263.294116308326" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DIM_Seller\OLE DB Destination"
-          TopLeft="753.285714118152,206.294116246092" />
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\DIM_Seller\Merge Join"
-          TopLeft="536.857143080356,207.764704438024" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\DIM_Seller\Sort 1"
-          TopLeft="314.71428631611,255.94117534867" />
+          TopLeft="85.0000006066901,192.558822252681" />
         <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Sort Output]"
-          TopLeft="421.11428631611,276.74117534867">
+          Id="Package\DIM_Seller.Paths[Sort Output1]"
+          TopLeft="563.139284067365,109.658822558155">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="115.742856764246,-48.1764709106461"
+              EndConnector="0,86.0617642433671"
               Start="0,0"
-              End="108.242856764246,-48.1764709106461">
+              End="0,78.5617642433671">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="53.8714283821229,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="53.8714283821229,0"
-                    Point2="57.8714283821229,0"
-                    Point3="57.8714283821229,-4" />
+                    End="0,78.5617642433671" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[Sort Output]"
+          TopLeft="415.757143447563,216.520586983842">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.7428566897403,0"
+              Start="0,0"
+              End="73.2428566897403,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="57.8714283821229,-44.1764709106461" />
-                  <mssgle:CubicBezierSegment
-                    Point1="57.8714283821229,-44.1764709106461"
-                    Point2="57.8714283821229,-48.1764709106461"
-                    Point3="61.8714283821229,-48.1764709106461" />
-                  <mssgle:LineSegment
-                    End="108.242856764246,-48.1764709106461" />
+                    End="73.2428566897403,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10387,136 +10566,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Seller.Paths[OLE DB Source Output]"
-          TopLeft="234.60000060669,280.417645828498">
+          TopLeft="234.60000060669,214.939704709421">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="80.1142857094204,0"
+              EndConnector="74.7571428408731,0"
               Start="0,0"
-              End="72.6142857094204,0">
+              End="67.2571428408731,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="72.6142857094204,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Flat File Source Output]"
-          TopLeft="156.271429269807,188.470586499335">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-78.1647050200449"
-              Start="0,0"
-              End="0,-70.6647050200449">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-70.6647050200449" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\DIM_Seller\Data Conversion"
-          TopLeft="340.999994918704,67.9999989867211" />
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[check_not_null]"
-          TopLeft="235.685714935588,89.1529402330054">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="105.314279983117,0"
-              Start="0,0"
-              End="97.8142799831166,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="97.8142799831166,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="15.3704017103083,5,67.0734765625,11.0625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Data Conversion Output]"
-          TopLeft="496.199994918704,88.7999989867211">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="116.228573283614,26.058823548644"
-              Start="0,0"
-              End="108.728573283614,26.058823548644">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="54.1142866418071,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="54.1142866418071,0"
-                    Point2="58.1142866418071,0"
-                    Point3="58.1142866418071,4" />
-                  <mssgle:LineSegment
-                    End="58.1142866418071,22.058823548644" />
-                  <mssgle:CubicBezierSegment
-                    Point1="58.1142866418071,22.058823548644"
-                    Point2="58.1142866418071,26.058823548644"
-                    Point3="62.1142866418071,26.058823548644" />
-                  <mssgle:LineSegment
-                    End="108.728573283614,26.058823548644" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_Seller.Paths[Sort Output1]"
-          TopLeft="661.228568202318,135.658822535365">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-59.5714251219621,72.1058819026584"
-              Start="0,0"
-              End="-59.5714251219621,64.6058819026584">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.0529409513292" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,32.0529409513292"
-                    Point2="0,36.0529409513292"
-                    Point3="-4,36.0529409513292" />
-                  <mssgle:LineSegment
-                    End="-55.5714251219621,36.0529409513292" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-55.5714251219621,36.0529409513292"
-                    Point2="-59.5714251219621,36.0529409513292"
-                    Point3="-59.5714251219621,40.0529409513292" />
-                  <mssgle:LineSegment
-                    End="-59.5714251219621,64.6058819026584" />
+                    End="67.2571428408731,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10527,24 +10588,92 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Seller.Paths[Merge Join Output]"
-          TopLeft="666.457143080356,227.829410342058">
+          TopLeft="626.100000137303,216.645586822449">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="86.8285710377961,0"
+              EndConnector="31.6499994917635,0"
               Start="0,0"
-              End="79.3285710377961,0">
+              End="24.1499994917635,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="79.3285710377961,0" />
+                    End="24.1499994917635,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[Flat File Source Output]"
+          TopLeft="158.503572131701,134.94117478155">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-24.63529330226"
+              Start="0,0"
+              End="0,-17.13529330226">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-17.13529330226" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[Data Conversion Output]"
+          TopLeft="480.128566313064,88.3514695963865">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="36.0500016843636,0"
+              Start="0,0"
+              End="28.5500016843636,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.5500016843636,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_Seller.Paths[check_not_null]"
+          TopLeft="235.685714935587,88.6749990569537">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89.2428513774761,0"
+              Start="0,0"
+              End="81.7428513774761,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="81.7428513774761,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="7.33468740748804,5,67.0734765625,11.0625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10582,13 +10711,17 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\DIM_Time\Sort"
+          TopLeft="500.040808910097,97.539494896589" />
+        <NodeLayout
           Size="155.2,41.6"
           Id="Package\DIM_Time\Data Conversion"
-          TopLeft="253.999996215105,208.999996885657" />
+          TopLeft="22.3673426607953,198.075627147333" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_Time\OLE DB Destination"
-          TopLeft="748.99998883903,311.19999576807" />
+          TopLeft="684.714274416468,207.418483253996" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_Time\Flat File Source"
@@ -10596,45 +10729,41 @@
         <NodeLayout
           Size="164.8,41.6"
           Id="Package\DIM_Time\Data Conversion 1"
-          TopLeft="502.999992504716,305.999995440245" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\DIM_Time\Sort"
-          TopLeft="497.999992579222,88.7999991059303" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\DIM_Time\Derived Column"
-          TopLeft="277.999995857477,309.99999538064" />
+          TopLeft="480.551012865091,202.218482926172" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\DIM_Time\Conditional Split"
           TopLeft="248.999996289611,91.9999986290932" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\DIM_Time\Derived Column"
+          TopLeft="227.99999575104,202.941171945069" />
         <EdgeLayout
           Id="Package\DIM_Time.Paths[Sort Output]"
-          TopLeft="546.799992579222,130.39999910593">
+          TopLeft="548.840808910097,139.139494896589">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-215.199996364117,78.599997779727"
+              EndConnector="-448.873466249302,58.9361322507445"
               Start="0,0"
-              End="-215.199996364117,71.099997779727">
+              End="-448.873466249302,51.4361322507445">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.2999988898635" />
+                    End="0,25.4680661253722" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,35.2999988898635"
-                    Point2="0,39.2999988898635"
-                    Point3="-4,39.2999988898635" />
+                    Point1="0,25.4680661253722"
+                    Point2="0,29.4680661253722"
+                    Point3="-4,29.4680661253722" />
                   <mssgle:LineSegment
-                    End="-211.199996364117,39.2999988898635" />
+                    End="-444.873466249302,29.4680661253722" />
                   <mssgle:CubicBezierSegment
-                    Point1="-211.199996364117,39.2999988898635"
-                    Point2="-215.199996364117,39.2999988898635"
-                    Point3="-215.199996364117,43.2999988898635" />
+                    Point1="-444.873466249302,29.4680661253722"
+                    Point2="-448.873466249302,29.4680661253722"
+                    Point3="-448.873466249302,33.4680661253722" />
                   <mssgle:LineSegment
-                    End="-215.199996364117,71.099997779727" />
+                    End="-448.873466249302,51.4361322507445" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10671,18 +10800,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Time.Paths[Derived Column Output]"
-          TopLeft="430.799995857477,328.799995410442">
+          TopLeft="380.79999575104,223.37982743562">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="72.1999966472387,0"
+              EndConnector="99.7510171140511,0"
               Start="0,0"
-              End="64.6999966472387,0">
+              End="92.2510171140511,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="64.6999966472387,0" />
+                    End="92.2510171140511,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10695,18 +10824,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Time.Paths[Data Conversion Output1]"
-          TopLeft="667.799992504716,329.399995604157">
+          TopLeft="645.351012865091,225.618483090084">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="81.1999963343144,0"
+              EndConnector="39.3632615513769,0"
               Start="0,0"
-              End="73.6999963343144,0">
+              End="31.8632615513769,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="73.6999963343144,0" />
+                    End="31.8632615513769,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10719,18 +10848,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Time.Paths[Data Conversion Output]"
-          TopLeft="330.933329369624,250.599996885657">
+          TopLeft="177.567342660795,221.308399546201">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.3999984949828"
+              EndConnector="50.432653090245,0"
               Start="0,0"
-              End="0,51.8999984949828">
+              End="42.932653090245,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.8999984949828" />
+                    End="42.932653090245,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10743,25 +10872,25 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_Time.Paths[check time not null]"
-          TopLeft="403.399996289611,111.199998867512">
+          TopLeft="403.399996289611,115.569746762841">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="94.5999962896109,0"
+              EndConnector="96.6408126204857,0"
               Start="0,0"
-              End="87.0999962896109,0">
+              End="89.1408126204857,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.0999962896109,0" />
+                    End="89.1408126204857,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="1.13325986355547,5,84.8334765625,9.7490234375"
+              BoundingBox="2.15366802899288,5,84.8334765625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
