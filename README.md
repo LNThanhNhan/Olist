@@ -5,7 +5,7 @@
 
 Dữ liệu này bao gồm 10 bảng dữ liệu với các thông tin về khách hàng, đơn hàng, sản phẩm, vận chuyển, thanh toán, đánh giá, v.v. Và dữ liệu này sẽ được xây dựng thành một data warehouse dạng sao (star schema) với các bảng fact và các bảng dimension. 
 
-<img src="./ERD/Olist_ERD.png" alt="Alt text" title="Optional title">
+<img src="./ERD/Olist_ERD.png" alt="ERD" title="ERD">
 
 ## 2. Công cụ sử dụng
 
@@ -47,14 +47,16 @@ Các câu hỏi trên sẽ được trả lời bằng cách sử dụng câu tr
 ## 3. Xây dựng mô hình machine learning dự đoán doanh bán hàng của Olist trong vòng 30 ngày tiếp theo
 
 1. Kết quả dự đoán của mô hình SARIMA 
-<img src="./Mining/SARIMA.png" alt="Alt text" title="Optional title">
+<img src="./Mining/SARIMA.png" alt="SARIMA model" title="Optional title">
 
 2. Kết quả dự đoán của mô hình Random Forest 
-<img src="./Mining/RandomForest.png" alt="Alt text" title="Optional title">
+<img src="./Mining/RandomForest.png" alt="RF model" title="RF">
 
 3. Kết quả dự đoán của mô hình CNN-LSTM 
-<img src="./Mining/CNN-LSTM.png" alt="Alt text" title="Optional title">
+<img src="./Mining/CNN-LSTM.png" alt="CNN LSTM model" title="CNN-LSTM">
 
 ## 4. Tài liệu tiếng Việt
 
 Tài liệu chi tiết tiếng việc về đồ án có thể tải file pdf [tại đây](Nhóm_44_20520667_LuongNguyenThanhNhan_20520556_TrinhGiaHuy.pdf)
+
+Video chi tiết về các quá trình xây dựng và phân tích dữ liệu trên OLAP cube có thể xem [tại đây](https://uithcm-my.sharepoint.com/:f:/g/personal/20520667_ms_uit_edu_vn/EmghZSKHwSBBpc8G0N5saocBu1Db_af1MAxiRkw2oYuR8w?e=uL3Ofi)
